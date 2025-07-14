@@ -45,10 +45,10 @@ This is all just tech that I know and use! There are many other amazing options 
 - [@noble/post-quantum](https://github.com/paulmillr/noble-post-quantum)
 
 ##### Scure micro-libraries
-- scure-base, base64, bech32  
-- scure-bip32, scure-btc-signer, scure-bip39  
-- scure-sr25519  
-- scure-starknet
+- [scure-base, base64, bech32](https://github.com/paulmillr/scure-base)
+- [scure-bip32](https://github.com/paulmillr/scure-bip32)
+- [scure-btc-signer](https://github.com/paulmillr/scure-btc-signer)
+- [scure-bip39](https://github.com/paulmillr/scure-bip39)
 
 ### Auth / Sessions
 - [iron-session](https://www.npmjs.com/package/iron-session)
