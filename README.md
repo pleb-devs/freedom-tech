@@ -53,6 +53,15 @@ This is all just tech that I know and use! There are many other amazing options 
 * **Cashu** — Chaumian e-cash *(Python • Tool/CLI)*
 * **Fedimint** — federated e-cash rails *(Rust • Server)*
 
+### Networking / Privacy
+
+* **Tor** — onion routing daemon *(C • Server)*
+* **Snowflake** — pluggable transport proxy *(Go • Server)*
+* **WireGuard** — minimal VPN protocol *(C • Tool/CLI)*
+* **Yggdrasil** — encrypted mesh overlay *(Go • Server)*
+* **Tailscale** — WireGuard mesh overlay *(Go • Tool/CLI)*
+* **Bitchat** — Bluetooth/Nostr mesh messenger *(Swift/Kotlin • App)*
+
 ### Nostr
 
 * **rust-nostr** *(Rust • Lib)*
@@ -77,8 +86,6 @@ This is all just tech that I know and use! There are many other amazing options 
 
 * **iron-session** — stateless encrypted cookies *(JS/TS • Lib)*
 * **simplewebauthn** — WebAuthn/Passkeys *(JS/TS • Lib)*
-
-*(Networking/Privacy category placeholder → Tor, WireGuard, I2P, etc. to be added later.)*
 
 ---
 
@@ -121,6 +128,9 @@ This is all just tech that I know and use! There are many other amazing options 
 * **LNbits** – Extensible Lightning accounts server *(Python • Server • Lightning • custodial wallets, extensions)* — [https://github.com/lnbits/lnbits](https://github.com/lnbits/lnbits)
 * **electrs** – Electrum server (indexer) for your own wallets *(Rust • Server • Bitcoin • indexing, wallet queries)* — [https://github.com/romanz/electrs](https://github.com/romanz/electrs). ([GitHub][2])
 * **strfry** – High-performance Nostr relay using LMDB *(C/C++ • Server • Nostr • relay)* — [https://github.com/hoytech/strfry](https://github.com/hoytech/strfry). ([GitHub][3])
+* **Tor** – Onion routing daemon *(C • Server • Networking/Privacy • anonymity network)* — [https://gitlab.torproject.org/tpo/core/tor](https://gitlab.torproject.org/tpo/core/tor)
+* **Snowflake** – Pluggable transport proxy for Tor *(Go • Server • Networking/Privacy • traffic obfuscation)* — [https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake)
+* **Yggdrasil** – Global encrypted mesh overlay *(Go • Server • Networking/Privacy • IPv6 routing)* — [https://yggdrasil-network.github.io/](https://yggdrasil-network.github.io/)
 
 ### Protocols / Standards
 
@@ -133,6 +143,9 @@ This is all just tech that I know and use! There are many other amazing options 
 * **HWI** (Hardware Wallet Interface) – Standard CLI/lib for PSBT w/ hardware wallets *(Python • Tool/CLI • Bitcoin • PSBT, descriptors)* — [https://github.com/bitcoin-core/HWI](https://github.com/bitcoin-core/HWI). ([GitHub][6])
 * **JoinMarket** – CoinJoin coordinator + market maker *(Python • Tool/CLI • Bitcoin • coinjoin, liquidity)* — [https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 * **minisign** – Dead-simple file signing & verification (Ed25519) *(C • Tool/CLI • Crypto • release signing)* — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign). ([GitHub][5])
+* **WireGuard** – Minimal VPN toolkit *(C • Tool/CLI • Networking/Privacy • tunnels)* — [https://www.wireguard.com/](https://www.wireguard.com/)
+* **Tailscale** – Managed WireGuard mesh with SSO & ACLs *(Go • Tool/CLI • Networking/Privacy • overlay VPN)* — [https://tailscale.com/kb/1017/what-is-tailscale](https://tailscale.com/kb/1017/what-is-tailscale)
+* **Bitchat** – Offline-first Bluetooth/Nostr messenger *(Swift/Kotlin • App • Networking/Privacy • adhoc comms)* — [https://github.com/BitChatLib/BitChat](https://github.com/BitChatLib/BitChat)
 
 ---
 
@@ -160,6 +173,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **go-nostr** *(Nostr lib)*
 * **relayer** *(Nostr server framework)*
 * **LND** *(Lightning server)*
+* **Snowflake**, **Tailscale**, **Yggdrasil** *(Networking/Privacy)*
 
 ### C / C++
 
@@ -167,10 +181,15 @@ This is all just tech that I know and use! There are many other amazing options 
 * **Core Lightning (CLN)** *(Lightning server)*
 * **strfry** *(Nostr server)*
 * **minisign** *(Tool/CLI)*
+* **Tor**, **WireGuard** *(Networking/Privacy)*
 
 ### Python
 
 * **Cashu**, **HWI**, **JoinMarket**, **LNbits** *(Tool/CLI & Server)*
+
+### Multi-lang
+
+* **Bitchat** *(Networking/Privacy messenger)*
 
 ---
 
