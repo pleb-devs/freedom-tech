@@ -20,7 +20,6 @@ This is all just tech that I know and use! There are many other amazing options 
 * [By Topic](#by-topic)
 * [By Type](#by-type)
 * [By Language](#by-language)
-* [Original List (normalized)](#original-list-normalized)
 * [Tag Glossary](#tag-glossary)
 
 ---
@@ -172,57 +171,6 @@ This is all just tech that I know and use! There are many other amazing options 
 ### Python
 
 * **Cashu**, **HWI**, **JoinMarket**, **LNbits** *(Tool/CLI & Server)*
-
----
-
-## Original List (normalized)
-
-### Bitcoin
-
-* bitcoinjs-lib — [https://github.com/bitcoinjs/bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib)
-* bitcoinerlab/descriptors — [https://github.com/bitcoinerlab/descriptors](https://github.com/bitcoinerlab/descriptors)
-* BDK — [https://bitcoindevkit.org/](https://bitcoindevkit.org/)
-* rust-bitcoin — [https://github.com/rust-bitcoin/rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)
-* **electrs** — [https://github.com/romanz/electrs](https://github.com/romanz/electrs) (indexer for Electrum wallets). ([GitHub][2])
-* **HWI** — [https://github.com/bitcoin-core/HWI](https://github.com/bitcoin-core/HWI) (hardware wallet PSBT bridge). ([GitHub][6])
-* **JoinMarket** — [https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
-
-### Lightning
-
-* LDK — [https://lightningdevkit.org/](https://lightningdevkit.org/)
-* tonic_lnd — [https://github.com/Kixunil/tonic_lnd](https://github.com/Kixunil/tonic_lnd)
-* **LND** — [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd). ([GitHub][1])
-* **LDK Node** — [https://github.com/lightningdevkit/ldk-node](https://github.com/lightningdevkit/ldk-node)
-* **LNbits** — [https://github.com/lnbits/lnbits](https://github.com/lnbits/lnbits)
-
-### Ecash
-
-* **Cashu** — [https://github.com/cashubtc/nutshell](https://github.com/cashubtc/nutshell)
-* **Fedimint** — [https://github.com/fedimint/fedimint](https://github.com/fedimint/fedimint)
-
-### Nostr
-
-* rust-nostr — [https://github.com/rust-nostr/nostr](https://github.com/rust-nostr/nostr)
-* nostr-tools — [https://github.com/nbd-wtf/nostr-tools](https://github.com/nbd-wtf/nostr-tools)
-* go-nostr — [https://github.com/nbd-wtf/go-nostr](https://github.com/nbd-wtf/go-nostr)
-* NDK — [https://github.com/nostr-dev-kit/ndk](https://github.com/nostr-dev-kit/ndk)
-* SNSTR — [https://github.com/austinkelsay/snstr](https://github.com/austinkelsay/snstr)
-* Relays: relayer — [https://github.com/fiatjaf/relayer](https://github.com/fiatjaf/relayer)
-* **strfry** — [https://github.com/hoytech/strfry](https://github.com/hoytech/strfry). ([GitHub][3])
-* NIP44: paulmillr/nip44 — [https://github.com/paulmillr/nip44](https://github.com/paulmillr/nip44)
-
-### Cryptography / Tools
-
-* secp256k1: libsecp256k1 — [https://github.com/bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1)
-* Noble: @noble/{ciphers,hashes,curves,post-quantum} — [https://github.com/paulmillr](https://github.com/paulmillr)
-* Scure: scure-{base,bip32,btc-signer,bip39} — [https://github.com/paulmillr](https://github.com/paulmillr)
-* **age** — [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age). ([GitHub][4])
-* **minisign** — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign). ([GitHub][5])
-
-### Authentication
-
-* Sessions: iron-session — [https://www.npmjs.com/package/iron-session](https://www.npmjs.com/package/iron-session)
-* Passkeys/WebAuthn: simplewebauthn — [https://github.com/MasterKale/SimpleWebAuthn](https://github.com/MasterKale/SimpleWebAuthn)
 
 ---
 
