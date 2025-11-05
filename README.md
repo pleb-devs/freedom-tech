@@ -6,8 +6,8 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ## How this catalog is organized
 
-* **By Type** → Libraries/SDKs, Runtimes/Servers, Tools/CLIs, Protocols/Standards
 * **By Topic** → Bitcoin, Lightning, Nostr, Cryptography, Networking/Privacy, Auth/Sessions
+* **By Type** → Libraries/SDKs, Runtimes/Servers, Tools/CLIs, Protocols/Standards
 * **By Language** → JavaScript/TypeScript, Rust, Go, Python, Multi-lang
 * **By Use Case** → Key mgmt, wallets, relays, signing, descriptors/miniscript, transport privacy, sessions, WebAuthn/Passkeys, etc.
 
@@ -17,60 +17,11 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ## Quick Index
 
-* [By Type](#by-type)
 * [By Topic](#by-topic)
+* [By Type](#by-type)
 * [By Language](#by-language)
 * [Original List (normalized)](#original-list-normalized)
 * [Tag Glossary](#tag-glossary)
-
----
-
-## By Type
-
-### Libraries / SDKs
-
-* **bitcoinjs-lib** – Bitcoin primitives & tx building *(JS/TS • Library • Bitcoin • tx building, PSBT)* — [https://github.com/bitcoinjs/bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib)
-* **bitcoinerlab/descriptors** – Output descriptors parsing/building *(JS/TS • Library • Bitcoin • descriptors)* — [https://github.com/bitcoinerlab/descriptors](https://github.com/bitcoinerlab/descriptors)
-* **BDK** (Bitcoin Dev Kit) – Wallet & chain access toolkit *(Rust • Library • Bitcoin • wallets, descriptors)* — [https://bitcoindevkit.org/](https://bitcoindevkit.org/)
-* **rust-bitcoin** – Core Bitcoin types *(Rust • Library • Bitcoin • primitives)* — [https://github.com/rust-bitcoin/rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)
-* **rust-miniscript** – Miniscript & descriptors *(Rust • Library • Bitcoin • miniscript, policy)* — [https://github.com/rust-bitcoin/rust-miniscript](https://github.com/rust-bitcoin/rust-miniscript)
-* **LDK** – Lightning Dev Kit *(Rust • Library • Lightning • node/wallet, routing)* — [https://lightningdevkit.org/](https://lightningdevkit.org/)
-* **tonic_lnd** – gRPC client for LND *(Rust • Library • Lightning • API client)* — [https://github.com/Kixunil/tonic_lnd](https://github.com/Kixunil/tonic_lnd)
-* **rust-nostr** – Nostr types & client *(Rust • Library • Nostr • client, events)* — [https://github.com/rust-nostr/nostr](https://github.com/rust-nostr/nostr)
-* **nostr-tools** – Client utils *(JS/TS • Library • Nostr • keys, events, relay)* — [https://github.com/nbd-wtf/nostr-tools](https://github.com/nbd-wtf/nostr-tools)
-* **go-nostr** – Nostr Go toolkit *(Go • Library • Nostr • client)* — [https://github.com/nbd-wtf/go-nostr](https://github.com/nbd-wtf/go-nostr)
-* **NDK** – Nostr Dev Kit *(JS/TS • Library • Nostr • client, abstractions)* — [https://github.com/nostr-dev-kit/ndk](https://github.com/nostr-dev-kit/ndk)
-* **SNSTR** – Minimal Nostr toolkit *(JS/TS • Library • Nostr • client, ergonomics)* — [https://github.com/austinkelsay/snstr](https://github.com/austinkelsay/snstr)
-* **libsecp256k1** – secp256k1 curve impl *(C • Library • Crypto • ECDSA, Schnorr)* — [https://github.com/bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1)
-* **@noble/curves** – Pure JS curves *(JS/TS • Library • Crypto • secp256k1/ed25519)* — [https://github.com/paulmillr/noble-curves](https://github.com/paulmillr/noble-curves)
-* **@noble/hashes** – Hash suites *(JS/TS • Library • Crypto • SHA-256, Blake3, etc.)* — [https://github.com/paulmillr/noble-hashes](https://github.com/paulmillr/noble-hashes)
-* **@noble/ciphers** – Stream & AEAD *(JS/TS • Library • Crypto • ChaCha20-Poly1305, etc.)* — [https://github.com/paulmillr/noble-ciphers](https://github.com/paulmillr/noble-ciphers)
-* **@noble/post-quantum** – PQ experiments *(JS/TS • Library • Crypto)* — [https://github.com/paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum)
-* **scure-bip39** – Mnemonics *(JS/TS • Library • Crypto/Bitcoin • seed gen)* — [https://github.com/paulmillr/scure-bip39](https://github.com/paulmillr/scure-bip39)
-* **scure-bip32** – HD derivation *(JS/TS • Library • Crypto/Bitcoin • key derivation)* — [https://github.com/paulmillr/scure-bip32](https://github.com/paulmillr/scure-bip32)
-* **scure-btc-signer** – Lightweight PSBT/signing *(JS/TS • Library • Bitcoin • signer)* — [https://github.com/paulmillr/scure-btc-signer](https://github.com/paulmillr/scure-btc-signer)
-* **scure-base** – bech32/base58/base64 *(JS/TS • Library • Crypto • encodings)* — [https://github.com/paulmillr/scure-base](https://github.com/paulmillr/scure-base)
-* **simplewebauthn** – WebAuthn/Passkeys server & browser *(JS/TS • Library • Auth • passkeys)* — [https://github.com/MasterKale/SimpleWebAuthn](https://github.com/MasterKale/SimpleWebAuthn)
-
-### Runtimes / Servers
-
-* **relayer** – Nostr relay framework *(Go • Server • Nostr)* — [https://github.com/fiatjaf/relayer](https://github.com/fiatjaf/relayer)
-* **nostr-rs-relay** – High-perf relay *(Rust • Server • Nostr)* — [https://github.com/scsibug/nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)
-* **Core Lightning (CLN)** – Lightning node *(C • Server • Lightning)* — [https://github.com/ElementsProject/lightning](https://github.com/ElementsProject/lightning)
-* **btcd** – Full node implementation *(Go • Server • Bitcoin)* — [https://github.com/btcsuite/btcd](https://github.com/btcsuite/btcd)
-* **LND** – Lightning node w/ gRPC & REST *(Go • Server • Lightning • node, APIs)* — [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd). ([GitHub][1])
-* **electrs** – Electrum server (indexer) for your own wallets *(Rust • Server • Bitcoin • indexing, wallet queries)* — [https://github.com/romanz/electrs](https://github.com/romanz/electrs). ([GitHub][2])
-* **strfry** – High-performance Nostr relay using LMDB *(C/C++ • Server • Nostr • relay)* — [https://github.com/hoytech/strfry](https://github.com/hoytech/strfry). ([GitHub][3])
-
-### Protocols / Standards
-
-* **NIP-44** – Nostr encrypted DMs *(Spec • Nostr • encryption)* — [https://github.com/paulmillr/nip44](https://github.com/paulmillr/nip44)
-
-### Tools / CLIs
-
-* **age** – Modern file encryption (format + CLI + Go lib) *(Go • Tool/CLI • Crypto • file encryption, key wrapping)* — [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age). ([GitHub][4])
-* **minisign** – Dead-simple file signing & verification (Ed25519) *(C • Tool/CLI • Crypto • release signing)* — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign). ([GitHub][5])
-* **HWI** (Hardware Wallet Interface) – Standard CLI/lib for PSBT w/ hardware wallets *(Python • Tool/CLI • Bitcoin • PSBT, descriptors)* — [https://github.com/bitcoin-core/HWI](https://github.com/bitcoin-core/HWI). ([GitHub][6])
 
 ---
 
@@ -121,6 +72,55 @@ This is all just tech that I know and use! There are many other amazing options 
 * **simplewebauthn** — WebAuthn/Passkeys *(JS/TS • Lib)*
 
 *(Networking/Privacy category placeholder → Tor, WireGuard, I2P, etc. to be added later.)*
+
+---
+
+## By Type
+
+### Libraries / SDKs
+
+* **bitcoinjs-lib** – Bitcoin primitives & tx building *(JS/TS • Library • Bitcoin • tx building, PSBT)* — [https://github.com/bitcoinjs/bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib)
+* **bitcoinerlab/descriptors** – Output descriptors parsing/building *(JS/TS • Library • Bitcoin • descriptors)* — [https://github.com/bitcoinerlab/descriptors](https://github.com/bitcoinerlab/descriptors)
+* **BDK** (Bitcoin Dev Kit) – Wallet & chain access toolkit *(Rust • Library • Bitcoin • wallets, descriptors)* — [https://bitcoindevkit.org/](https://bitcoindevkit.org/)
+* **rust-bitcoin** – Core Bitcoin types *(Rust • Library • Bitcoin • primitives)* — [https://github.com/rust-bitcoin/rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)
+* **rust-miniscript** – Miniscript & descriptors *(Rust • Library • Bitcoin • miniscript, policy)* — [https://github.com/rust-bitcoin/rust-miniscript](https://github.com/rust-bitcoin/rust-miniscript)
+* **LDK** – Lightning Dev Kit *(Rust • Library • Lightning • node/wallet, routing)* — [https://lightningdevkit.org/](https://lightningdevkit.org/)
+* **tonic_lnd** – gRPC client for LND *(Rust • Library • Lightning • API client)* — [https://github.com/Kixunil/tonic_lnd](https://github.com/Kixunil/tonic_lnd)
+* **rust-nostr** – Nostr types & client *(Rust • Library • Nostr • client, events)* — [https://github.com/rust-nostr/nostr](https://github.com/rust-nostr/nostr)
+* **nostr-tools** – Client utils *(JS/TS • Library • Nostr • keys, events, relay)* — [https://github.com/nbd-wtf/nostr-tools](https://github.com/nbd-wtf/nostr-tools)
+* **go-nostr** – Nostr Go toolkit *(Go • Library • Nostr • client)* — [https://github.com/nbd-wtf/go-nostr](https://github.com/nbd-wtf/go-nostr)
+* **NDK** – Nostr Dev Kit *(JS/TS • Library • Nostr • client, abstractions)* — [https://github.com/nostr-dev-kit/ndk](https://github.com/nostr-dev-kit/ndk)
+* **SNSTR** – Minimal Nostr toolkit *(JS/TS • Library • Nostr • client, ergonomics)* — [https://github.com/austinkelsay/snstr](https://github.com/austinkelsay/snstr)
+* **libsecp256k1** – secp256k1 curve impl *(C • Library • Crypto • ECDSA, Schnorr)* — [https://github.com/bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1)
+* **@noble/curves** – Pure JS curves *(JS/TS • Library • Crypto • secp256k1/ed25519)* — [https://github.com/paulmillr/noble-curves](https://github.com/paulmillr/noble-curves)
+* **@noble/hashes** – Hash suites *(JS/TS • Library • Crypto • SHA-256, Blake3, etc.)* — [https://github.com/paulmillr/noble-hashes](https://github.com/paulmillr/noble-hashes)
+* **@noble/ciphers** – Stream & AEAD *(JS/TS • Library • Crypto • ChaCha20-Poly1305, etc.)* — [https://github.com/paulmillr/noble-ciphers](https://github.com/paulmillr/noble-ciphers)
+* **@noble/post-quantum** – PQ experiments *(JS/TS • Library • Crypto)* — [https://github.com/paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum)
+* **scure-bip39** – Mnemonics *(JS/TS • Library • Crypto/Bitcoin • seed gen)* — [https://github.com/paulmillr/scure-bip39](https://github.com/paulmillr/scure-bip39)
+* **scure-bip32** – HD derivation *(JS/TS • Library • Crypto/Bitcoin • key derivation)* — [https://github.com/paulmillr/scure-bip32](https://github.com/paulmillr/scure-bip32)
+* **scure-btc-signer** – Lightweight PSBT/signing *(JS/TS • Library • Bitcoin • signer)* — [https://github.com/paulmillr/scure-btc-signer](https://github.com/paulmillr/scure-btc-signer)
+* **scure-base** – bech32/base58/base64 *(JS/TS • Library • Crypto • encodings)* — [https://github.com/paulmillr/scure-base](https://github.com/paulmillr/scure-base)
+* **simplewebauthn** – WebAuthn/Passkeys server & browser *(JS/TS • Library • Auth • passkeys)* — [https://github.com/MasterKale/SimpleWebAuthn](https://github.com/MasterKale/SimpleWebAuthn)
+
+### Runtimes / Servers
+
+* **relayer** – Nostr relay framework *(Go • Server • Nostr)* — [https://github.com/fiatjaf/relayer](https://github.com/fiatjaf/relayer)
+* **nostr-rs-relay** – High-perf relay *(Rust • Server • Nostr)* — [https://github.com/scsibug/nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)
+* **Core Lightning (CLN)** – Lightning node *(C • Server • Lightning)* — [https://github.com/ElementsProject/lightning](https://github.com/ElementsProject/lightning)
+* **btcd** – Full node implementation *(Go • Server • Bitcoin)* — [https://github.com/btcsuite/btcd](https://github.com/btcsuite/btcd)
+* **LND** – Lightning node w/ gRPC & REST *(Go • Server • Lightning • node, APIs)* — [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd). ([GitHub][1])
+* **electrs** – Electrum server (indexer) for your own wallets *(Rust • Server • Bitcoin • indexing, wallet queries)* — [https://github.com/romanz/electrs](https://github.com/romanz/electrs). ([GitHub][2])
+* **strfry** – High-performance Nostr relay using LMDB *(C/C++ • Server • Nostr • relay)* — [https://github.com/hoytech/strfry](https://github.com/hoytech/strfry). ([GitHub][3])
+
+### Protocols / Standards
+
+* **NIP-44** – Nostr encrypted DMs *(Spec • Nostr • encryption)* — [https://github.com/paulmillr/nip44](https://github.com/paulmillr/nip44)
+
+### Tools / CLIs
+
+* **age** – Modern file encryption (format + CLI + Go lib) *(Go • Tool/CLI • Crypto • file encryption, key wrapping)* — [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age). ([GitHub][4])
+* **minisign** – Dead-simple file signing & verification (Ed25519) *(C • Tool/CLI • Crypto • release signing)* — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign). ([GitHub][5])
+* **HWI** (Hardware Wallet Interface) – Standard CLI/lib for PSBT w/ hardware wallets *(Python • Tool/CLI • Bitcoin • PSBT, descriptors)* — [https://github.com/bitcoin-core/HWI](https://github.com/bitcoin-core/HWI). ([GitHub][6])
 
 ---
 
