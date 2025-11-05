@@ -58,7 +58,7 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ### Networking / Privacy
 
-* **Bitchat** – Offline-first Bluetooth/Nostr messenger *(Swift/Kotlin • App • Networking/Privacy • mesh messaging)* — [https://github.com/BitChatLib/BitChat](https://github.com/BitChatLib/BitChat)
+* **Bitchat** – Offline-first Bluetooth/Nostr messenger *(Swift/Kotlin • Tool/CLI • Networking/Privacy • mesh messaging)* — [https://github.com/BitChatLib/BitChat](https://github.com/BitChatLib/BitChat)
 * **Snowflake** – Pluggable transport proxy for Tor *(Go • Server • Networking/Privacy • traffic obfuscation)* — [https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake)
 * **Tailscale** – Managed WireGuard mesh with SSO & ACLs *(Go • Tool/CLI • Networking/Privacy • overlay VPN)* — [https://tailscale.com/kb/1017/what-is-tailscale](https://tailscale.com/kb/1017/what-is-tailscale)
 * **Tor** – Onion routing daemon *(C • Server • Networking/Privacy • anonymity network)* — [https://gitlab.torproject.org/tpo/core/tor](https://gitlab.torproject.org/tpo/core/tor)
@@ -131,7 +131,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **btcd** – Full node implementation *(Go • Server • Bitcoin)* — [https://github.com/btcsuite/btcd](https://github.com/btcsuite/btcd)
 * **Core Lightning (CLN)** – Lightning node *(C • Server • Lightning)* — [https://github.com/ElementsProject/lightning](https://github.com/ElementsProject/lightning)
 * **electrs** – Electrum server (indexer) for your own wallets *(Rust • Server • Bitcoin • indexing, wallet queries)* — [https://github.com/romanz/electrs](https://github.com/romanz/electrs)
-* **Fedimint** – Modular federated e-cash backend *(Rust • Server • Lightning • community custody, e-cash)* — [https://github.com/fedimint/fedimint](https://github.com/fedimint/fedimint)
+* **Fedimint** – Modular federated e-cash backend *(Rust • Server • Ecash • community custody, e-cash)* — [https://github.com/fedimint/fedimint](https://github.com/fedimint/fedimint)
 * **LNbits** – Extensible Lightning accounts server *(Python • Server • Lightning • custodial wallets, extensions)* — [https://github.com/lnbits/lnbits](https://github.com/lnbits/lnbits)
 * **LND** – Lightning node w/ gRPC & REST *(Go • Server • Lightning • node, APIs)* — [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)
 * **nostr-rs-relay** – High-perf relay *(Rust • Server • Nostr)* — [https://github.com/scsibug/nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)
@@ -143,13 +143,13 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ### Protocols / Standards
 
-* **NIP-44** – Nostr encrypted DMs *(Spec • Nostr • encryption)* — [https://github.com/paulmillr/nip44](https://github.com/paulmillr/nip44)
+* **NIP-44** – Nostr encrypted DMs *(Spec • Protocol/Standard • Nostr • encryption)* — [https://github.com/paulmillr/nip44](https://github.com/paulmillr/nip44)
 
 ### Tools / CLIs
 
 * **age** – Modern file encryption (format + CLI + Go lib) *(Go • Tool/CLI • Crypto • file encryption, key wrapping)* — [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
-* **Bitchat** – Offline-first Bluetooth/Nostr messenger *(Swift/Kotlin • App • Networking/Privacy • adhoc comms)* — [https://github.com/BitChatLib/BitChat](https://github.com/BitChatLib/BitChat)
-* **Cashu** – Reference Chaumian e-cash mint & wallet *(Python • Tool/CLI • Lightning • bearer tokens, ecash)* — [https://github.com/cashubtc/nutshell](https://github.com/cashubtc/nutshell)
+* **Bitchat** – Offline-first Bluetooth/Nostr messenger *(Swift/Kotlin • Tool/CLI • Networking/Privacy • adhoc comms)* — [https://github.com/BitChatLib/BitChat](https://github.com/BitChatLib/BitChat)
+* **Cashu** – Reference Chaumian e-cash mint & wallet *(Python • Tool/CLI • Ecash • bearer tokens, ecash)* — [https://github.com/cashubtc/nutshell](https://github.com/cashubtc/nutshell)
 * **HWI** (Hardware Wallet Interface) – Standard CLI/lib for PSBT w/ hardware wallets *(Python • Tool/CLI • Bitcoin • PSBT, descriptors)* — [https://github.com/bitcoin-core/HWI](https://github.com/bitcoin-core/HWI)
 * **JoinMarket** – CoinJoin coordinator + market maker *(Python • Tool/CLI • Bitcoin • coinjoin, liquidity)* — [https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 * **minisign** – Dead-simple file signing & verification (Ed25519) *(C • Tool/CLI • Crypto • release signing)* — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign)
@@ -170,8 +170,8 @@ This is all just tech that I know and use! There are many other amazing options 
 ### Rust
 
 * **BDK**, **rust-bitcoin**, **rust-miniscript** *(Bitcoin)*
-* **LDK**, **tonic_lnd** *(Lightning)*
-* **Fedimint**, **LDK Node** *(Lightning)*
+* **LDK**, **LDK Node**, **tonic_lnd** *(Lightning)*
+* **Fedimint** *(Ecash)*
 * **rust-nostr** *(Nostr)*
 * **nostr-rs-relay** *(Server)*
 * **electrs** *(Server/indexer)*
@@ -204,9 +204,9 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ## Tag Glossary
 
-* **Type**: Library, Server (Runtime), Tool/CLI, Spec
+* **Type**: Library, Server (Runtime), Tool/CLI, Protocol/Standard
 * **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy
-* **Language**: JS/TS, Rust, Go, C/C++, Python, Multi
+* **Language**: JS/TS, Rust, Go, C/C++, Python, Multi, Spec
 * **Use cases**: wallets, descriptors/miniscript, tx/PSBT, relays, node, routing, encryption, passkeys, sessions
 
 ---
