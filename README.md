@@ -6,7 +6,7 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ## How this catalog is organized
 
-* **By Topic** → Bitcoin, Lightning, Nostr, Cryptography, Networking/Privacy, Auth/Sessions
+* **By Topic** → Bitcoin, Lightning, Ecash, Nostr, Cryptography, Networking/Privacy, Auth/Sessions
 * **By Type** → Libraries/SDKs, Runtimes/Servers, Tools/CLIs, Protocols/Standards
 * **By Language** → JavaScript/TypeScript, Rust, Go, Python, Multi-lang
 * **By Use Case** → Key mgmt, wallets, relays, signing, descriptors/miniscript, transport privacy, sessions, WebAuthn/Passkeys, etc.
@@ -38,13 +38,21 @@ This is all just tech that I know and use! There are many other amazing options 
 * **scure-bip39 / bip32 / btc-signer / base** *(JS/TS • Lib)*
 * **electrs** — self-hosted Electrum indexer *(Rust • Server)*
 * **HWI** — hardware wallet bridge *(Python • Tool/CLI)*
+* **JoinMarket** — coinjoin coordinator *(Python • Tool/CLI)*
 
 ### Lightning
 
 * **LDK** — node/wallet *(Rust • Lib)*
+* **LDK Node** — single-binary node toolkit *(Rust • Lib)*
+* **LNbits** — extensible custodial accounts server *(Python • Server)*
 * **tonic_lnd** — gRPC client *(Rust • Lib)*
 * **Core Lightning (CLN)** — node *(C • Server)*
 * **LND** — node *(Go • Server)*
+
+### Ecash
+
+* **Cashu** — Chaumian e-cash *(Python • Tool/CLI)*
+* **Fedimint** — federated e-cash rails *(Rust • Server)*
 
 ### Nostr
 
@@ -85,6 +93,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **rust-bitcoin** – Core Bitcoin types *(Rust • Library • Bitcoin • primitives)* — [https://github.com/rust-bitcoin/rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)
 * **rust-miniscript** – Miniscript & descriptors *(Rust • Library • Bitcoin • miniscript, policy)* — [https://github.com/rust-bitcoin/rust-miniscript](https://github.com/rust-bitcoin/rust-miniscript)
 * **LDK** – Lightning Dev Kit *(Rust • Library • Lightning • node/wallet, routing)* — [https://lightningdevkit.org/](https://lightningdevkit.org/)
+* **LDK Node** – Single-binary Lightning node API atop LDK *(Rust • Library • Lightning • node bootstrap, background tasks)* — [https://github.com/lightningdevkit/ldk-node](https://github.com/lightningdevkit/ldk-node)
 * **tonic_lnd** – gRPC client for LND *(Rust • Library • Lightning • API client)* — [https://github.com/Kixunil/tonic_lnd](https://github.com/Kixunil/tonic_lnd)
 * **rust-nostr** – Nostr types & client *(Rust • Library • Nostr • client, events)* — [https://github.com/rust-nostr/nostr](https://github.com/rust-nostr/nostr)
 * **nostr-tools** – Client utils *(JS/TS • Library • Nostr • keys, events, relay)* — [https://github.com/nbd-wtf/nostr-tools](https://github.com/nbd-wtf/nostr-tools)
@@ -109,6 +118,8 @@ This is all just tech that I know and use! There are many other amazing options 
 * **Core Lightning (CLN)** – Lightning node *(C • Server • Lightning)* — [https://github.com/ElementsProject/lightning](https://github.com/ElementsProject/lightning)
 * **btcd** – Full node implementation *(Go • Server • Bitcoin)* — [https://github.com/btcsuite/btcd](https://github.com/btcsuite/btcd)
 * **LND** – Lightning node w/ gRPC & REST *(Go • Server • Lightning • node, APIs)* — [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd). ([GitHub][1])
+* **Fedimint** – Modular federated e-cash backend *(Rust • Server • Lightning • community custody, e-cash)* — [https://github.com/fedimint/fedimint](https://github.com/fedimint/fedimint)
+* **LNbits** – Extensible Lightning accounts server *(Python • Server • Lightning • custodial wallets, extensions)* — [https://github.com/lnbits/lnbits](https://github.com/lnbits/lnbits)
 * **electrs** – Electrum server (indexer) for your own wallets *(Rust • Server • Bitcoin • indexing, wallet queries)* — [https://github.com/romanz/electrs](https://github.com/romanz/electrs). ([GitHub][2])
 * **strfry** – High-performance Nostr relay using LMDB *(C/C++ • Server • Nostr • relay)* — [https://github.com/hoytech/strfry](https://github.com/hoytech/strfry). ([GitHub][3])
 
@@ -119,8 +130,10 @@ This is all just tech that I know and use! There are many other amazing options 
 ### Tools / CLIs
 
 * **age** – Modern file encryption (format + CLI + Go lib) *(Go • Tool/CLI • Crypto • file encryption, key wrapping)* — [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age). ([GitHub][4])
-* **minisign** – Dead-simple file signing & verification (Ed25519) *(C • Tool/CLI • Crypto • release signing)* — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign). ([GitHub][5])
+* **Cashu** – Reference Chaumian e-cash mint & wallet *(Python • Tool/CLI • Lightning • bearer tokens, ecash)* — [https://github.com/cashubtc/nutshell](https://github.com/cashubtc/nutshell)
 * **HWI** (Hardware Wallet Interface) – Standard CLI/lib for PSBT w/ hardware wallets *(Python • Tool/CLI • Bitcoin • PSBT, descriptors)* — [https://github.com/bitcoin-core/HWI](https://github.com/bitcoin-core/HWI). ([GitHub][6])
+* **JoinMarket** – CoinJoin coordinator + market maker *(Python • Tool/CLI • Bitcoin • coinjoin, liquidity)* — [https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
+* **minisign** – Dead-simple file signing & verification (Ed25519) *(C • Tool/CLI • Crypto • release signing)* — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign). ([GitHub][5])
 
 ---
 
@@ -137,6 +150,7 @@ This is all just tech that I know and use! There are many other amazing options 
 
 * **BDK**, **rust-bitcoin**, **rust-miniscript** *(Bitcoin)*
 * **LDK**, **tonic_lnd** *(Lightning)*
+* **LDK Node**, **Fedimint** *(Lightning)*
 * **rust-nostr** *(Nostr)*
 * **nostr-rs-relay** *(Server)*
 * **electrs** *(Server/indexer)*
@@ -157,7 +171,7 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ### Python
 
-* **HWI** *(Tool/CLI)*
+* **Cashu**, **HWI**, **JoinMarket**, **LNbits** *(Tool/CLI & Server)*
 
 ---
 
@@ -171,12 +185,20 @@ This is all just tech that I know and use! There are many other amazing options 
 * rust-bitcoin — [https://github.com/rust-bitcoin/rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)
 * **electrs** — [https://github.com/romanz/electrs](https://github.com/romanz/electrs) (indexer for Electrum wallets). ([GitHub][2])
 * **HWI** — [https://github.com/bitcoin-core/HWI](https://github.com/bitcoin-core/HWI) (hardware wallet PSBT bridge). ([GitHub][6])
+* **JoinMarket** — [https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 
 ### Lightning
 
 * LDK — [https://lightningdevkit.org/](https://lightningdevkit.org/)
 * tonic_lnd — [https://github.com/Kixunil/tonic_lnd](https://github.com/Kixunil/tonic_lnd)
 * **LND** — [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd). ([GitHub][1])
+* **LDK Node** — [https://github.com/lightningdevkit/ldk-node](https://github.com/lightningdevkit/ldk-node)
+* **LNbits** — [https://github.com/lnbits/lnbits](https://github.com/lnbits/lnbits)
+
+### Ecash
+
+* **Cashu** — [https://github.com/cashubtc/nutshell](https://github.com/cashubtc/nutshell)
+* **Fedimint** — [https://github.com/fedimint/fedimint](https://github.com/fedimint/fedimint)
 
 ### Nostr
 
@@ -207,7 +229,7 @@ This is all just tech that I know and use! There are many other amazing options 
 ## Tag Glossary
 
 * **Type**: Library, Server (Runtime), Tool/CLI, Spec
-* **Topic**: Bitcoin, Lightning, Nostr, Crypto, Auth, Networking/Privacy
+* **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy
 * **Language**: JS/TS, Rust, Go, C/C++, Python, Multi
 * **Use cases**: wallets, descriptors/miniscript, tx/PSBT, relays, node, routing, encryption, passkeys, sessions
 
