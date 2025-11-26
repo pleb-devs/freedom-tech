@@ -59,10 +59,12 @@ This is all just tech that I know and use! There are many other amazing options 
 ### Networking / Privacy
 
 * **Bitchat** – Offline-first Bluetooth/Nostr messenger *(Swift/Kotlin • Tool/CLI • Networking/Privacy • mesh messaging)* — [https://github.com/BitChatLib/BitChat](https://github.com/BitChatLib/BitChat)
+* **I2P** – Anonymous overlay network *(Java • Server • Networking/Privacy • traffic hiding, tunnels)* — [https://geti2p.net/](https://geti2p.net/)
 * **Snowflake** – Pluggable transport proxy for Tor *(Go • Server • Networking/Privacy • traffic obfuscation)* — [https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake)
 * **Tailscale** – Managed WireGuard mesh with SSO & ACLs *(Go • Tool/CLI • Networking/Privacy • overlay VPN)* — [https://tailscale.com/kb/1017/what-is-tailscale](https://tailscale.com/kb/1017/what-is-tailscale)
 * **Tor** – Onion routing daemon *(C • Server • Networking/Privacy • anonymity network)* — [https://gitlab.torproject.org/tpo/core/tor](https://gitlab.torproject.org/tpo/core/tor)
 * **WireGuard** – Minimal VPN toolkit *(C • Tool/CLI • Networking/Privacy • tunnels)* — [https://www.wireguard.com/](https://www.wireguard.com/)
+* **Syncthing** – Encrypted P2P file sync *(Go • Tool/CLI • Networking/Privacy • file sync, LAN/mesh)* — [https://syncthing.net/](https://syncthing.net/)
 * **Yggdrasil** – Global encrypted mesh overlay *(Go • Server • Networking/Privacy • IPv6 routing)* — [https://yggdrasil-network.github.io/](https://yggdrasil-network.github.io/)
 
 ### Nostr
@@ -84,6 +86,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **@noble/hashes** – Hash suites *(JS/TS • Library • Crypto • SHA-256, Blake3, etc.)* — [https://github.com/paulmillr/noble-hashes](https://github.com/paulmillr/noble-hashes)
 * **@noble/post-quantum** – PQ experiments *(JS/TS • Library • Crypto • PQ signatures)* — [https://github.com/paulmillr/noble-post-quantum](https://github.com/paulmillr/noble-post-quantum)
 * **age** – Modern file encryption (format + CLI + Go lib) *(Go • Tool/CLI • Crypto • file encryption, key wrapping)* — [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
+* **libsodium** – Modern crypto primitives bundle *(C • Library • Crypto • AEAD, signatures, KDF)* — [https://github.com/jedisct1/libsodium](https://github.com/jedisct1/libsodium)
 * **libsecp256k1** – secp256k1 curve implementation *(C • Library • Crypto • ECDSA, Schnorr)* — [https://github.com/bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1)
 * **minisign** – Dead-simple file signing & verification (Ed25519) *(C • Tool/CLI • Crypto • release signing)* — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign)
 * **scure-base** – bech32/base58/base64 *(JS/TS • Library • Crypto • encodings)* — [https://github.com/paulmillr/scure-base](https://github.com/paulmillr/scure-base)
@@ -112,6 +115,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **go-nostr** – Nostr Go toolkit *(Go • Library • Nostr • client)* — [https://github.com/nbd-wtf/go-nostr](https://github.com/nbd-wtf/go-nostr)
 * **LDK** – Lightning Dev Kit *(Rust • Library • Lightning • node/wallet, routing)* — [https://lightningdevkit.org/](https://lightningdevkit.org/)
 * **LDK Node** – Single-binary Lightning node API atop LDK *(Rust • Library • Lightning • node bootstrap, background tasks)* — [https://github.com/lightningdevkit/ldk-node](https://github.com/lightningdevkit/ldk-node)
+* **libsodium** – Modern crypto primitives bundle *(C • Library • Crypto • AEAD, signatures, KDF)* — [https://github.com/jedisct1/libsodium](https://github.com/jedisct1/libsodium)
 * **libsecp256k1** – secp256k1 curve impl *(C • Library • Crypto • ECDSA, Schnorr)* — [https://github.com/bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1)
 * **NDK** – Nostr Dev Kit *(JS/TS • Library • Nostr • client, abstractions)* — [https://github.com/nostr-dev-kit/ndk](https://github.com/nostr-dev-kit/ndk)
 * **nostr-tools** – Client utils *(JS/TS • Library • Nostr • keys, events, relay)* — [https://github.com/nbd-wtf/nostr-tools](https://github.com/nbd-wtf/nostr-tools)
@@ -136,6 +140,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **LND** – Lightning node w/ gRPC & REST *(Go • Server • Lightning • node, APIs)* — [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)
 * **nostr-rs-relay** – High-perf relay *(Rust • Server • Nostr)* — [https://github.com/scsibug/nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)
 * **relayer** – Nostr relay framework *(Go • Server • Nostr)* — [https://github.com/fiatjaf/relayer](https://github.com/fiatjaf/relayer)
+* **I2P** – Anonymous overlay network *(Java • Server • Networking/Privacy • traffic hiding, tunnels)* — [https://geti2p.net/](https://geti2p.net/)
 * **Snowflake** – Pluggable transport proxy for Tor *(Go • Server • Networking/Privacy • traffic obfuscation)* — [https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake)
 * **strfry** – High-performance Nostr relay using LMDB *(C/C++ • Server • Nostr • relay)* — [https://github.com/hoytech/strfry](https://github.com/hoytech/strfry)
 * **Tor** – Onion routing daemon *(C • Server • Networking/Privacy • anonymity network)* — [https://gitlab.torproject.org/tpo/core/tor](https://gitlab.torproject.org/tpo/core/tor)
@@ -153,6 +158,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **HWI** (Hardware Wallet Interface) – Standard CLI/lib for PSBT w/ hardware wallets *(Python • Tool/CLI • Bitcoin • PSBT, descriptors)* — [https://github.com/bitcoin-core/HWI](https://github.com/bitcoin-core/HWI)
 * **JoinMarket** – CoinJoin coordinator + market maker *(Python • Tool/CLI • Bitcoin • coinjoin, liquidity)* — [https://github.com/JoinMarket-Org/joinmarket-clientserver](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 * **minisign** – Dead-simple file signing & verification (Ed25519) *(C • Tool/CLI • Crypto • release signing)* — [https://github.com/jedisct1/minisign](https://github.com/jedisct1/minisign)
+* **Syncthing** – Encrypted P2P file sync *(Go • Tool/CLI • Networking/Privacy • file sync, LAN/mesh)* — [https://syncthing.net/](https://syncthing.net/)
 * **Tailscale** – Managed WireGuard mesh with SSO & ACLs *(Go • Tool/CLI • Networking/Privacy • overlay VPN)* — [https://tailscale.com/kb/1017/what-is-tailscale](https://tailscale.com/kb/1017/what-is-tailscale)
 * **WireGuard** – Minimal VPN toolkit *(C • Tool/CLI • Networking/Privacy • tunnels)* — [https://www.wireguard.com/](https://www.wireguard.com/)
 
@@ -183,14 +189,20 @@ This is all just tech that I know and use! There are many other amazing options 
 * **LND** *(Lightning server)*
 * **relayer** *(Nostr server framework)*
 * **Snowflake**, **Tailscale**, **Yggdrasil** *(Networking/Privacy)*
+* **Syncthing** *(Networking/Privacy file sync)*
 
 ### C / C++
 
 * **Core Lightning (CLN)** *(Lightning server)*
 * **libsecp256k1** *(Crypto)*
+* **libsodium** *(Crypto)*
 * **minisign** *(Tool/CLI)*
 * **strfry** *(Nostr server)*
 * **Tor**, **WireGuard** *(Networking/Privacy)*
+
+### Java
+
+* **I2P** *(Networking/Privacy overlay)*
 
 ### Python
 
@@ -206,8 +218,8 @@ This is all just tech that I know and use! There are many other amazing options 
 
 * **Type**: Library, Server (Runtime), Tool/CLI, Protocol/Standard
 * **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy
-* **Language**: JS/TS, Rust, Go, C/C++, Python, Multi, Spec
-* **Use cases**: wallets, descriptors/miniscript, tx/PSBT, relays, node, routing, encryption, passkeys, sessions
+* **Language**: JS/TS, Rust, Go, C/C++, Java, Python, Multi, Spec
+* **Use cases**: wallets, descriptors/miniscript, tx/PSBT, relays, node, routing, encryption, passkeys, sessions, file sync, anonymity overlays
 
 ---
 
