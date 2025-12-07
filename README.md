@@ -6,7 +6,7 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ## How this catalog is organized
 
-* **By Topic** → Bitcoin, Lightning, Ecash, Nostr, Cryptography, Networking/Privacy, Auth/Sessions
+* **By Topic** → Bitcoin, Lightning, Ecash, Nostr, Cryptography, Networking/Privacy, Storage/Sync, Auth/Sessions
 * **By Type** → Libraries/SDKs, Runtimes/Servers, Tools/CLIs, Protocols/Standards
 * **By Language** → JavaScript/TypeScript, Rust, Go, Python, Multi-lang
 * **By Use Case** → Key mgmt, wallets, relays, signing, descriptors/miniscript, transport privacy, sessions, WebAuthn/Passkeys, etc.
@@ -29,6 +29,7 @@ This is all just tech that I know and use! There are many other amazing options 
 ### Bitcoin
 
 * **BDK** (Bitcoin Dev Kit) – Wallet & chain access toolkit *(Rust • Library • Bitcoin • wallets, descriptors)* — [https://bitcoindevkit.org/](https://bitcoindevkit.org/)
+* **Bitcoin Core** – Reference full node & wallet daemon *(C/C++ • Server • Bitcoin • validation, RPC, wallets)* — [https://bitcoincore.org/](https://bitcoincore.org/)
 * **bitcoinjs-lib** – Bitcoin primitives & tx building *(JS/TS • Library • Bitcoin • tx building, PSBT)* — [https://github.com/bitcoinjs/bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib)
 * **bitcoinerlab/descriptors** – Output descriptors parsing/building *(JS/TS • Library • Bitcoin • descriptors)* — [https://github.com/bitcoinerlab/descriptors](https://github.com/bitcoinerlab/descriptors)
 * **btcd** – Full node implementation *(Go • Server • Bitcoin • validation, RPC)* — [https://github.com/btcsuite/btcd](https://github.com/btcsuite/btcd)
@@ -49,6 +50,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **LDK Node** – Single-binary Lightning node API atop LDK *(Rust • Library • Lightning • node bootstrap, background tasks)* — [https://github.com/lightningdevkit/ldk-node](https://github.com/lightningdevkit/ldk-node)
 * **LND** – Lightning node with gRPC & REST *(Go • Server • Lightning • node, APIs)* — [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)
 * **LNbits** – Extensible Lightning accounts server *(Python • Server • Lightning • custodial wallets, extensions)* — [https://github.com/lnbits/lnbits](https://github.com/lnbits/lnbits)
+* **Validating Lightning Signer (VLS)** – Remote signer for Lightning nodes *(Rust • Library • Lightning • stateless node signer, HSM-style)* — [https://vls.tech/](https://vls.tech/)
 * **tonic_lnd** – gRPC client for LND *(Rust • Library • Lightning • API client)* — [https://github.com/Kixunil/tonic_lnd](https://github.com/Kixunil/tonic_lnd)
 
 ### Ecash
@@ -59,6 +61,7 @@ This is all just tech that I know and use! There are many other amazing options 
 ### Networking / Privacy
 
 * **Bitchat** – Offline-first Bluetooth/Nostr messenger *(Swift/Kotlin • Tool/CLI • Networking/Privacy • mesh messaging)* — [https://github.com/BitChatLib/BitChat](https://github.com/BitChatLib/BitChat)
+* **cjdns** – Encrypted IPv6 mesh networking stack *(C • Server • Networking/Privacy • mesh routing, IP allocation)* — [https://github.com/cjdelisle/cjdns](https://github.com/cjdelisle/cjdns)
 * **I2P** – Anonymous overlay network *(Java • Server • Networking/Privacy • traffic hiding, tunnels)* — [https://geti2p.net/](https://geti2p.net/)
 * **Snowflake** – Pluggable transport proxy for Tor *(Go • Server • Networking/Privacy • traffic obfuscation)* — [https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake)
 * **Tailscale** – Managed WireGuard mesh with SSO & ACLs *(Go • Tool/CLI • Networking/Privacy • overlay VPN)* — [https://tailscale.com/kb/1017/what-is-tailscale](https://tailscale.com/kb/1017/what-is-tailscale)
@@ -66,6 +69,11 @@ This is all just tech that I know and use! There are many other amazing options 
 * **WireGuard** – Minimal VPN toolkit *(C • Tool/CLI • Networking/Privacy • tunnels)* — [https://www.wireguard.com/](https://www.wireguard.com/)
 * **Syncthing** – Encrypted P2P file sync *(Go • Tool/CLI • Networking/Privacy • file sync, LAN/mesh)* — [https://syncthing.net/](https://syncthing.net/)
 * **Yggdrasil** – Global encrypted mesh overlay *(Go • Server • Networking/Privacy • IPv6 routing)* — [https://yggdrasil-network.github.io/](https://yggdrasil-network.github.io/)
+
+### Storage / Sync
+
+* **Automerge** – Local-first CRDT document store *(JS/TS • Library • Storage/Sync • offline edits, sync, merge)* — [https://github.com/automerge/automerge](https://github.com/automerge/automerge)
+* **Yjs** – CRDT framework for collaborative data *(JS/TS • Library • Storage/Sync • shared docs, presence)* — [https://github.com/yjs/yjs](https://github.com/yjs/yjs)
 
 ### Nostr
 
@@ -172,6 +180,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **NDK**, **nostr-tools**, **SNSTR** *(Nostr)*
 * **@noble/**, **scure-/** *(Crypto)*
 * **iron-session**, **simplewebauthn** *(Auth)*
+* **Automerge**, **Yjs** *(Storage/Sync)*
 
 ### Rust
 
@@ -181,6 +190,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **rust-nostr** *(Nostr)*
 * **nostr-rs-relay** *(Server)*
 * **electrs** *(Server/indexer)*
+* **Validating Lightning Signer (VLS)** *(Lightning signer)*
 
 ### Go
 
@@ -199,6 +209,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **minisign** *(Tool/CLI)*
 * **strfry** *(Nostr server)*
 * **Tor**, **WireGuard** *(Networking/Privacy)*
+* **Bitcoin Core**, **cjdns** *(Bitcoin, Networking/Privacy)*
 
 ### Java
 
@@ -217,7 +228,7 @@ This is all just tech that I know and use! There are many other amazing options 
 ## Tag Glossary
 
 * **Type**: Library, Server (Runtime), Tool/CLI, Protocol/Standard
-* **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy
+* **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy, Storage/Sync
 * **Language**: JS/TS, Rust, Go, C/C++, Java, Python, Multi, Spec
 * **Use cases**: wallets, descriptors/miniscript, tx/PSBT, relays, node, routing, encryption, passkeys, sessions, file sync, anonymity overlays
 

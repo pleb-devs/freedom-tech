@@ -1,35 +1,54 @@
 # Repository Guidelines
 
-## Project Structure & Module Organization
-- Root files: `README.md` (catalog) and `LICENSE` (MIT). No build output or binaries are tracked.
-- Catalog sections: By Topic, By Type, By Language, Tag Glossary, and Roadmap. Place new entries in the most specific subsection; mirror across parallel lists only when it improves discovery.
-- Entry format: `**Name** – short note *(Language • Type • Topic • use cases)* — [link]`. Keep tags aligned with the glossary and keep notes to one line.
+This repository is a curated, text-only catalog of tools and resources.
+Use this guide when editing entries or adding new sections.
+
+## Project Structure & Organization
+
+- `README.md` – main catalog (by topic, type, language, tags, roadmap).
+- `LICENSE` – MIT license for the catalog content.
+- Do not add build output, vendored binaries, or large assets; keep everything
+  as Markdown or small text files.
 
 ## Build, Test, and Development Commands
-- No build step; edit Markdown directly.
-- Preview: `glow README.md` (or your editor’s Markdown preview) to spot formatting issues.
-- Optional lint: `npx markdownlint README.md AGENTS.md`.
-- Optional link check: `npx markdown-link-check README.md` to catch dead or redirected links.
+
+- Edit Markdown directly in your editor.
+- Preview: `glow README.md` (or your editor’s Markdown preview).
+- Lint: `npx markdownlint README.md AGENTS.md` to enforce basic style rules.
+- Link check: `npx markdown-link-check README.md` to catch dead or redirected
+  links.
 
 ## Coding Style & Naming Conventions
-- Use bullets over tables; keep lines ≤ 100 chars.
-- Bold the project name, use an en dash before the note, and italicize the tag tuple exactly as shown in the entry format.
-- Sort items alphabetically within a subsection when practical; group closely related tools together if ordering helps comprehension.
-- Prefer canonical links (project homepage or primary repo). Avoid tracker URLs and long redirects.
-- Keep tone neutral and descriptive; avoid marketing language or subjective hype.
+
+- Prefer bullets over tables; keep lines ≤ 100 characters.
+- Catalog entry format:
+  `**Name** – short note *(Language • Type • Topic • use cases)* — [link]`.
+- Bold the project name, use an en dash before the note, and italicize the tag
+  tuple exactly as shown.
+- Prefer canonical project URLs (homepage or primary repo) and strip tracking
+  parameters; default to `https`.
 
 ## Testing Guidelines
-- Run `markdownlint` and the link check before opening a PR; fix any failures.
-- Manually scan for duplicate entries, stale tags (topic/type/language), and obvious spelling errors.
-- When adding many links, spot-check HTTP 200 responses and license compatibility.
+
+- Treat `markdownlint` and `markdown-link-check` as the primary “test” suite.
+- Run both before opening a PR and fix any reported issues.
+- When adding many links, spot-check HTTP 200 responses and obvious spelling
+  errors.
 
 ## Commit & Pull Request Guidelines
-- Commit messages: present-tense, concise (≤72 chars), similar to existing history (e.g., `add nostr relay options`).
-- Separate structural changes (reordering/retitling) from new content when feasible.
-- PR checklist: brief summary of sections touched, example of entries added/updated, results of lint/link checks, and any known gaps.
-- Link related issues or requests; include screenshots only if Markdown layout changes materially.
+
+- Commit messages: present tense, concise (≤ 72 chars), similar to
+  `add nostr relay options`.
+- PRs should outline sections touched, example entries added or updated, and
+  the results of lint and link checks.
+- Link related issues where relevant; add screenshots only when layout changes
+  materially.
 
 ## Security & Curation Tips
-- Favor audited, open-source, and self-hostable tools; flag experimental or unmaintained projects in the note.
-- Keep the repo text-only—no vendored binaries or large assets.
-- Strip tokens, tracking params, or PII from URLs; default to `https`.
+
+- Favor audited, open-source, and self-hostable tools; flag experimental or
+  unmaintained projects in the note.
+- Do not include secrets, tokens, or PII in URLs.
+- Keep the repository text-only for easier review, mirroring, and long-term
+  maintenance.
+
