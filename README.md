@@ -10,6 +10,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **By Type** → Libraries/SDKs, Runtimes/Servers, Tools/CLIs, Protocols/Standards
 * **By Language** → JavaScript/TypeScript, Rust, Go, Python, Multi-lang
 * **By Use Case** → Key mgmt, wallets, relays, signing, descriptors/miniscript, transport privacy, sessions, WebAuthn/Passkeys, etc.
+* **App Frameworks** → Desktop-native shells for JS frontends (e.g., Tauri)
 
 > **Entry format**: `Name` – short note *(Language • Type • Topic • Use cases)* — [link]
 
@@ -19,6 +20,7 @@ This is all just tech that I know and use! There are many other amazing options 
 
 * [By Topic](#by-topic)
 * [By Type](#by-type)
+* [App Frameworks](#app-frameworks)
 * [By Language](#by-language)
 * [Tag Glossary](#tag-glossary)
 
@@ -172,6 +174,13 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ---
 
+## App Frameworks
+
+* **Tauri** – Webview shell *(Rust/JS • Framework • App • desktop)* — [tauri.app](https://tauri.app)
+* **Wails** – Go webview shell *(Go/JS • Framework • App • desktop)* — [wails.io](https://wails.io)
+
+---
+
 ## By Language
 
 ### JavaScript / TypeScript
@@ -200,6 +209,7 @@ This is all just tech that I know and use! There are many other amazing options 
 * **relayer** *(Nostr server framework)*
 * **Snowflake**, **Tailscale**, **Yggdrasil** *(Networking/Privacy)*
 * **Syncthing** *(Networking/Privacy file sync)*
+* **Wails** *(App framework)*
 
 ### C / C++
 
@@ -227,10 +237,11 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ## Tag Glossary
 
-* **Type**: Library, Server (Runtime), Tool/CLI, Protocol/Standard
-* **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy, Storage/Sync
+* **Type**: Library, Server (Runtime), Tool/CLI, Protocol/Standard, Framework
+* **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy, Storage/Sync, App
 * **Language**: JS/TS, Rust, Go, C/C++, Java, Python, Multi, Spec
-* **Use cases**: wallets, descriptors/miniscript, tx/PSBT, relays, node, routing, encryption, passkeys, sessions, file sync, anonymity overlays
+* **Use cases**: wallets, descriptors/miniscript, tx/PSBT, relays, node, routing, encryption, passkeys,
+  sessions, file sync, anonymity overlays, desktop
 
 ---
 
