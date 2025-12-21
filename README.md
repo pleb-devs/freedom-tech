@@ -6,7 +6,8 @@ This is all just tech that I know and use! There are many other amazing options 
 
 ## How this catalog is organized
 
-* **By Topic** → Bitcoin, Lightning, Ecash, Nostr, Cryptography, Networking/Privacy, Storage/Sync, Auth/Sessions
+* **By Topic** → Bitcoin, Lightning, Ecash, Networking/Privacy, Storage/Sync, Messaging/Comms, Nostr,
+  Cryptography, Auth/Sessions
 * **By Type** → Libraries/SDKs, Runtimes/Servers, Tools/CLIs, Protocols/Standards
 * **By Language** → JavaScript/TypeScript, Rust, Go, Python, Multi-lang
 * **By Use Case** → Key mgmt, wallets, relays, signing, descriptors/miniscript, transport privacy, sessions, WebAuthn/Passkeys, etc.
@@ -76,6 +77,11 @@ This is all just tech that I know and use! There are many other amazing options 
 
 * **Automerge** – Local-first CRDT document store *(JS/TS • Library • Storage/Sync • offline edits, sync, merge)* — [https://github.com/automerge/automerge](https://github.com/automerge/automerge)
 * **Yjs** – CRDT framework for collaborative data *(JS/TS • Library • Storage/Sync • shared docs, presence)* — [https://github.com/yjs/yjs](https://github.com/yjs/yjs)
+
+### Messaging / Comms
+
+* **Bitchat** – Offline-first Bluetooth/Nostr messenger *(Swift/Kotlin • Tool/CLI • Messaging/Comms • mesh chat)* — [https://github.com/BitChatLib/BitChat](https://github.com/BitChatLib/BitChat)
+* **Signal Protocol** – E2EE messaging protocol *(Spec • Protocol/Standard • Messaging/Comms • e2ee, ratchets)* — [https://signal.org/docs/](https://signal.org/docs/)
 
 ### Nostr
 
@@ -159,6 +165,7 @@ This is all just tech that I know and use! There are many other amazing options 
 ### Protocols / Standards
 
 * **NIP-44** – Nostr encrypted DMs *(Spec • Protocol/Standard • Nostr • encryption)* — [https://github.com/paulmillr/nip44](https://github.com/paulmillr/nip44)
+* **Signal Protocol** – E2EE messaging protocol *(Spec • Protocol/Standard • Messaging/Comms • e2ee, ratchets)* — [https://signal.org/docs/](https://signal.org/docs/)
 
 ### Tools / CLIs
 
@@ -238,7 +245,8 @@ This is all just tech that I know and use! There are many other amazing options 
 ## Tag Glossary
 
 * **Type**: Library, Server (Runtime), Tool/CLI, Protocol/Standard, Framework
-* **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy, Storage/Sync, App
+* **Topic**: Bitcoin, Lightning, Ecash, Nostr, Crypto, Auth, Networking/Privacy, Storage/Sync,
+  Messaging/Comms, App
 * **Language**: JS/TS, Rust, Go, C/C++, Java, Python, Multi, Spec
 * **Use cases**: wallets, descriptors/miniscript, tx/PSBT, relays, node, routing, encryption, passkeys,
   sessions, file sync, anonymity overlays, desktop
