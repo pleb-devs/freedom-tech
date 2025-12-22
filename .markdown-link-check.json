@@ -1,0 +1,10 @@
+{
+  "httpHeaders": [
+    {
+      "urls": ["https://github.com/", "https://gitlab.torproject.org/"],
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; markdown-link-check)"
+      }
+    }
+  ]
+}

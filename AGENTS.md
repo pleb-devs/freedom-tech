@@ -14,15 +14,16 @@ Use this guide when editing entries or adding new sections.
 
 - Edit Markdown directly in your editor.
 - Preview: `glow README.md` (or your editor’s Markdown preview).
-- Lint: `npx markdownlint README.md AGENTS.md` to enforce basic style rules.
-- Link check: `npx markdown-link-check README.md` to catch dead or redirected
-  links.
+- Lint: `npx markdownlint README.md AGENTS.md agent-prompt.md` to enforce basic
+  style rules.
+- Link check: `npx markdown-link-check README.md AGENTS.md agent-prompt.md` to
+  catch dead or redirected links.
 
 ## Coding Style & Naming Conventions
 
 - Prefer bullets over tables; keep lines ≤ 100 characters.
 - Catalog entry format:
-  `**Name** – short note *(Language • Type • Topic • use cases)* — [link]`.
+  `**Name** – short note *(Language • Type • Topic • use cases)* — [Name](https://example.com)`.
 - Bold the project name, use an en dash before the note, and italicize the tag
   tuple exactly as shown.
 - Prefer canonical project URLs (homepage or primary repo) and strip tracking
@@ -51,4 +52,3 @@ Use this guide when editing entries or adding new sections.
 - Do not include secrets, tokens, or PII in URLs.
 - Keep the repository text-only for easier review, mirroring, and long-term
   maintenance.
-

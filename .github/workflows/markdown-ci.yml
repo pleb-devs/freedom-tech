@@ -1,0 +1,29 @@
+name: Markdown CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Markdown lint
+        run: npx markdownlint README.md AGENTS.md agent-prompt.md
+
+      - name: Markdown link check
+        run: npx markdown-link-check README.md AGENTS.md agent-prompt.md
