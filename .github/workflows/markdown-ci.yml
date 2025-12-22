@@ -23,7 +23,7 @@ jobs:
           node-version: 20
 
       - name: Markdown lint
-        run: npx markdownlint README.md AGENTS.md agent-prompt.md
+        run: npx markdownlint-cli README.md AGENTS.md agent-prompt.md
 
       - name: Markdown link check
         run: npx markdown-link-check README.md AGENTS.md agent-prompt.md

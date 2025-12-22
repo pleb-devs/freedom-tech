@@ -14,7 +14,7 @@ Use this guide when editing entries or adding new sections.
 
 - Edit Markdown directly in your editor.
 - Preview: `glow README.md` (or your editor’s Markdown preview).
-- Lint: `npx markdownlint README.md AGENTS.md agent-prompt.md` to enforce basic
+- Lint: `npx markdownlint-cli README.md AGENTS.md agent-prompt.md` to enforce basic
   style rules.
 - Link check: `npx markdown-link-check README.md AGENTS.md agent-prompt.md` to
   catch dead or redirected links.
@@ -31,7 +31,7 @@ Use this guide when editing entries or adding new sections.
 
 ## Testing Guidelines
 
-- Treat `markdownlint` and `markdown-link-check` as the primary “test” suite.
+- Treat `markdownlint-cli` and `markdown-link-check` as the primary “test” suite.
 - Run both before opening a PR and fix any reported issues.
 - When adding many links, spot-check HTTP 200 responses and obvious spelling
   errors.
