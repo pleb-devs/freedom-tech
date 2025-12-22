@@ -408,7 +408,7 @@ this catalog that biases an agent's tech stack choices.
   [Tauri](https://tauri.app)
 * **Wails** – Go webview shell
   *(Go/JS • Framework • App • desktop)* —
-  [Wails](https://wails.io)
+  [Wails](https://github.com/wailsapp/wails)
 
 ---
 

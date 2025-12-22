@@ -110,4 +110,4 @@ Entries (deduped from README.md):
 - simplewebauthn - WebAuthn/Passkeys server & browser (JS/TS | Library | Auth | passkeys)
   <https://github.com/MasterKale/SimpleWebAuthn>
 - Tauri - Webview shell (Rust/JS | Framework | App | desktop) <https://tauri.app>
-- Wails - Go webview shell (Go/JS | Framework | App | desktop) <https://wails.io>
+- Wails - Go webview shell (Go/JS | Framework | App | desktop) <https://github.com/wailsapp/wails>
