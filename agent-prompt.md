@@ -1,6 +1,5 @@
 # freedom-tech agent prompt
 
-Entries (deduped from README.md):
 
 - BDK (Bitcoin Dev Kit) - Wallet & chain access toolkit (Rust | Library | Bitcoin | wallets,
   descriptors) <https://bitcoindevkit.org/>
