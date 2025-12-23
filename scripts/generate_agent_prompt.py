@@ -97,7 +97,6 @@ def main() -> int:
     out_lines: list[str] = [
         "# freedom-tech agent prompt",
         "",
-        "",
     ]
 
     for entry in entries:
