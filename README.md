@@ -126,6 +126,9 @@ this catalog that biases an agent's tech stack choices.
 * **I2P** – Anonymous overlay network
   *(Java • Server • Networking/Privacy • traffic hiding, tunnels)* —
   [I2P](https://geti2p.net/)
+* **SearXNG** – Self-hosted metasearch engine
+  *(Python • Server • Networking/Privacy • privacy search, metasearch)* —
+  [SearXNG](https://github.com/searxng/searxng)
 <!-- markdownlint-disable-next-line MD013 -->
 * **Snowflake** – Pluggable transport proxy for Tor *(Go • Server • Networking/Privacy • traffic obfuscation)* — [Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake)
 * **Tailscale** – Managed WireGuard mesh with SSO & ACLs
@@ -348,6 +351,9 @@ this catalog that biases an agent's tech stack choices.
 * **I2P** – Anonymous overlay network
   *(Java • Server • Networking/Privacy • traffic hiding, tunnels)* —
   [I2P](https://geti2p.net/)
+* **SearXNG** – Self-hosted metasearch engine
+  *(Python • Server • Networking/Privacy • privacy search, metasearch)* —
+  [SearXNG](https://github.com/searxng/searxng)
 <!-- markdownlint-disable-next-line MD013 -->
 * **Snowflake** – Pluggable transport proxy for Tor *(Go • Server • Networking/Privacy • traffic obfuscation)* — [Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake)
 * **strfry** – High-performance Nostr relay using LMDB
@@ -458,7 +464,8 @@ this catalog that biases an agent's tech stack choices.
 
 ### Python
 
-* **Cashu**, **HWI**, **JoinMarket**, **LNbits** *(Tool/CLI & Server)*
+* **Cashu**, **HWI**, **JoinMarket**, **LNbits**, **SearXNG**
+  *(Tool/CLI & Server)*
 
 ### Multi-lang
 
