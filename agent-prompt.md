@@ -53,6 +53,8 @@
   allocation) <https://github.com/cjdelisle/cjdns>
 - I2P - Anonymous overlay network (Java | Server | Networking/Privacy | traffic hiding, tunnels)
   <https://geti2p.net/>
+- SearXNG - Self-hosted metasearch engine (Python | Server | Networking/Privacy | privacy search,
+  metasearch) <https://github.com/searxng/searxng>
 - Snowflake - Pluggable transport proxy for Tor (Go | Server | Networking/Privacy | traffic
   obfuscation) <https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake>
 - Tailscale - Managed WireGuard mesh with SSO & ACLs (Go | Tool/CLI | Networking/Privacy | overlay
