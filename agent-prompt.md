@@ -89,14 +89,18 @@
   <https://github.com/austinkelsay/snstr>
 - strfry - High-performance Nostr relay using LMDB (C/C++ | Server | Nostr | relay)
   <https://github.com/hoytech/strfry>
-- @noble/ciphers - Stream & AEAD primitives (JS/TS | Library | Crypto | ChaCha20-Poly1305, etc.)
-  <https://github.com/paulmillr/noble-ciphers>
-- @noble/curves - Pure JS curves (JS/TS | Library | Crypto | secp256k1/ed25519)
-  <https://github.com/paulmillr/noble-curves>
-- @noble/hashes - Hash suites (JS/TS | Library | Crypto | SHA-256, Blake3, etc.)
-  <https://github.com/paulmillr/noble-hashes>
-- @noble/post-quantum - PQ experiments (JS/TS | Library | Crypto | PQ signatures)
-  <https://github.com/paulmillr/noble-post-quantum>
+- @noble/ciphers - Ciphers (Salsa20/ChaCha/AES/FF1) (JS/TS | Library | Crypto | stream/block
+  ciphers, AEAD) <https://github.com/paulmillr/noble-ciphers>
+- @noble/curves - Full ECC suite (secp256k1/ed25519/ed448/BLS12-381, etc.) (JS/TS | Library | Crypto
+  | ECC, signatures, pairings) <https://github.com/paulmillr/noble-curves>
+- @noble/secp256k1 - 5KB minimal secp256k1 (sister to @noble/curves) (JS/TS | Library | Crypto |
+  secp256k1, ECDH, signatures) <https://github.com/paulmillr/noble-secp256k1>
+- @noble/ed25519 - 5KB minimal ed25519 (sister to @noble/curves) (JS/TS | Library | Crypto |
+  ed25519, signatures) <https://github.com/paulmillr/noble-ed25519>
+- @noble/hashes - Hash/MAC/KDF suite (SHA, BLAKE, HMAC, HKDF, Scrypt) (JS/TS | Library | Crypto |
+  hashes, MACs, KDFs) <https://github.com/paulmillr/noble-hashes>
+- @noble/post-quantum - PQ algorithms (ML-KEM/ML-DSA/SLH-DSA) (JS/TS | Library | Crypto | PQ KEMs,
+  signatures) <https://github.com/paulmillr/noble-post-quantum>
 - age - Modern file encryption (format + CLI + Go lib) (Go | Tool/CLI | Crypto | file encryption,
   key wrapping) <https://github.com/FiloSottile/age>
 - libsodium - Modern crypto primitives bundle (C | Library | Crypto | AEAD, signatures, KDF)
@@ -105,6 +109,10 @@
   <https://github.com/bitcoin-core/secp256k1>
 - minisign - Dead-simple file signing & verification (Ed25519) (C | Tool/CLI | Crypto | release
   signing) <https://github.com/jedisct1/minisign>
+- scure-starknet - Stark curve + Pedersen/Poseidon hashes (JS/TS | Library | Crypto | elliptic
+  curve, hashes) <https://github.com/paulmillr/scure-starknet>
+- scure-sr25519 - sr25519 signatures & VRF (JS/TS | Library | Crypto | sr25519, VRF)
+  <https://github.com/paulmillr/scure-sr25519>
 - iron-session - Stateless encrypted cookies (JS/TS | Library | Auth | session storage)
   <https://github.com/vvo/iron-session>
 - simplewebauthn - WebAuthn/Passkeys server & browser (JS/TS | Library | Auth | passkeys)
