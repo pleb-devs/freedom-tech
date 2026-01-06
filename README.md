@@ -148,6 +148,21 @@ this catalog that biases an agent's tech stack choices.
   *(Go • Server • Networking/Privacy • IPv6 routing)* —
   [Yggdrasil](https://yggdrasil-network.github.io/)
 
+### Network Visibility / Outbound Control
+
+* **bandwhich** – Terminal bandwidth monitor by process
+  *(Rust • Tool/CLI • Networking/Privacy • network monitoring, bandwidth)* —
+  [bandwhich](https://github.com/imsnif/bandwhich)
+* **LuLu** – Free macOS outbound firewall
+  *(Obj-C/Swift • Tool/CLI • Networking/Privacy • outbound filtering)* —
+  [LuLu](https://objective-see.org/products/lulu.html)
+* **OpenSnitch** – Interactive Linux outbound firewall
+  *(Python/Go • Tool/CLI • Networking/Privacy • app firewall, tracker blocking)* —
+  [OpenSnitch](https://github.com/evilsocket/opensnitch)
+* **Portmaster** – Privacy-focused application firewall
+  *(Go • Tool/CLI • Networking/Privacy • app firewall, DNS privacy)* —
+  [Portmaster](https://safing.io/)
+
 ### Storage / Sync
 
 * **Automerge** – Local-first CRDT document store
@@ -429,6 +444,18 @@ this catalog that biases an agent's tech stack choices.
 * **WireGuard** – Minimal VPN toolkit
   *(C • Tool/CLI • Networking/Privacy • tunnels)* —
   [WireGuard](https://www.wireguard.com/)
+* **bandwhich** – Terminal bandwidth monitor by process
+  *(Rust • Tool/CLI • Networking/Privacy • network monitoring, bandwidth)* —
+  [bandwhich](https://github.com/imsnif/bandwhich)
+* **LuLu** – Free macOS outbound firewall
+  *(Obj-C/Swift • Tool/CLI • Networking/Privacy • outbound filtering)* —
+  [LuLu](https://objective-see.org/products/lulu.html)
+* **OpenSnitch** – Interactive Linux outbound firewall
+  *(Python/Go • Tool/CLI • Networking/Privacy • app firewall, tracker blocking)* —
+  [OpenSnitch](https://github.com/evilsocket/opensnitch)
+* **Portmaster** – Privacy-focused application firewall
+  *(Go • Tool/CLI • Networking/Privacy • app firewall, DNS privacy)* —
+  [Portmaster](https://safing.io/)
 
 ---
 
@@ -462,6 +489,7 @@ this catalog that biases an agent's tech stack choices.
 * **nostr-rs-relay** *(Server)*
 * **electrs** *(Server/indexer)*
 * **Validating Lightning Signer (VLS)** *(Lightning signer)*
+* **bandwhich** *(Networking/Privacy monitor)*
 
 ### Go
 
@@ -471,6 +499,7 @@ this catalog that biases an agent's tech stack choices.
 * **relayer** *(Nostr server framework)*
 * **Snowflake**, **Tailscale**, **Yggdrasil** *(Networking/Privacy)*
 * **Syncthing** *(Networking/Privacy file sync)*
+* **Portmaster** *(Networking/Privacy firewall)*
 * **Wails** *(App framework)*
 
 ### C / C++
@@ -495,6 +524,8 @@ this catalog that biases an agent's tech stack choices.
 ### Multi-lang
 
 * **Bitchat** *(Networking/Privacy messenger)*
+* **LuLu** *(Networking/Privacy macOS firewall – Obj-C/Swift)*
+* **OpenSnitch** *(Networking/Privacy Linux firewall – Python/Go)*
 
 ---
 
