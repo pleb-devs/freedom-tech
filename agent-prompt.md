@@ -66,6 +66,14 @@
   <https://syncthing.net/>
 - Yggdrasil - Global encrypted mesh overlay (Go | Server | Networking/Privacy | IPv6 routing)
   <https://yggdrasil-network.github.io/>
+- bandwhich - Terminal bandwidth monitor by process (Rust | Tool/CLI | Networking/Privacy | network
+  monitoring, bandwidth) <https://github.com/imsnif/bandwhich>
+- LuLu - Free macOS outbound firewall (Obj-C/Swift | Tool/CLI | Networking/Privacy | outbound
+  filtering) <https://objective-see.org/products/lulu.html>
+- OpenSnitch - Interactive Linux outbound firewall (Python/Go | Tool/CLI | Networking/Privacy | app
+  firewall, tracker blocking) <https://github.com/evilsocket/opensnitch>
+- Portmaster - Privacy-focused application firewall (Go | Tool/CLI | Networking/Privacy | app
+  firewall, DNS privacy) <https://safing.io/>
 - Automerge - Local-first CRDT document store (JS/TS | Library | Storage/Sync | offline edits, sync,
   merge) <https://github.com/automerge/automerge>
 - Yjs - CRDT framework for collaborative data (JS/TS | Library | Storage/Sync | shared docs,
