@@ -119,10 +119,10 @@ this catalog that biases an agent's tech stack choices.
 ### Networking / Privacy
 
 * **Bitchat** – Offline-first Bluetooth/Nostr messenger
-  *(Swift/Kotlin • Tool/CLI • Networking/Privacy • mesh messaging)* —
+  *(Swift • Tool/CLI • Networking/Privacy • mesh messaging)* —
   [Bitchat](https://github.com/permissionlesstech/bitchat)
 * **cjdns** – Encrypted IPv6 mesh networking stack
-  *(C • Server • Networking/Privacy • mesh routing, IP allocation)* —
+  *(C/Rust • Server • Networking/Privacy • mesh routing, IP allocation)* —
   [cjdns](https://github.com/cjdelisle/cjdns)
 * **I2P** – Anonymous overlay network
   *(Java • Server • Networking/Privacy • traffic hiding, tunnels)* —
@@ -175,7 +175,7 @@ this catalog that biases an agent's tech stack choices.
 ### Messaging / Comms
 
 * **Bitchat** – Offline-first Bluetooth/Nostr messenger
-  *(Swift/Kotlin • Tool/CLI • Messaging/Comms • mesh chat)* —
+  *(Swift • Tool/CLI • Messaging/Comms • mesh chat)* —
   [Bitchat](https://github.com/permissionlesstech/bitchat)
 * **Signal Protocol** – E2EE messaging protocol
   *(Spec • Protocol/Standard • Messaging/Comms • e2ee, ratchets)* —
@@ -204,7 +204,7 @@ this catalog that biases an agent's tech stack choices.
 * **rust-nostr** – Nostr types & client
   *(Rust • Library • Nostr • client, events)* —
   [rust-nostr](https://github.com/rust-nostr/nostr)
-* **SNSTR** – Minimal Nostr toolkit
+* **SNSTR** – Secure Nostr toolkit
   *(JS/TS • Library • Nostr • ergonomics)* —
   [SNSTR](https://github.com/austinkelsay/snstr)
 * **strfry** – High-performance Nostr relay using LMDB
@@ -355,7 +355,7 @@ this catalog that biases an agent's tech stack choices.
 * **simplewebauthn** – WebAuthn/Passkeys server & browser
   *(JS/TS • Library • Auth • passkeys)* —
   [simplewebauthn](https://github.com/MasterKale/SimpleWebAuthn)
-* **SNSTR** – Minimal Nostr toolkit
+* **SNSTR** – Secure Nostr toolkit
   *(JS/TS • Library • Nostr • client, ergonomics)* —
   [SNSTR](https://github.com/austinkelsay/snstr)
 * **tonic_lnd** – gRPC client for LND
@@ -421,7 +421,7 @@ this catalog that biases an agent's tech stack choices.
   *(Go • Tool/CLI • Crypto • file encryption, key wrapping)* —
   [age](https://github.com/FiloSottile/age)
 * **Bitchat** – Offline-first Bluetooth/Nostr messenger
-  *(Swift/Kotlin • Tool/CLI • Networking/Privacy • adhoc comms)* —
+  *(Swift • Tool/CLI • Networking/Privacy • adhoc comms)* —
   [Bitchat](https://github.com/permissionlesstech/bitchat)
 * **Cashu** – Reference Chaumian e-cash mint & wallet
   *(Python • Tool/CLI • Ecash • bearer tokens, ecash)* —
@@ -510,7 +510,11 @@ this catalog that biases an agent's tech stack choices.
 * **minisign** *(Tool/CLI)*
 * **strfry** *(Nostr server)*
 * **Tor**, **WireGuard** *(Networking/Privacy)*
-* **Bitcoin Core**, **cjdns** *(Bitcoin, Networking/Privacy)*
+* **Bitcoin Core** *(Bitcoin)*
+
+### C / Rust (Hybrid)
+
+* **cjdns** *(Networking/Privacy mesh)*
 
 ### Java
 
@@ -521,10 +525,13 @@ this catalog that biases an agent's tech stack choices.
 * **Cashu**, **HWI**, **JoinMarket**, **LNbits**, **SearXNG**
   *(Tool/CLI & Server)*
 
-### Multi-lang
+### Swift / Objective-C
 
 * **Bitchat** *(Networking/Privacy messenger)*
-* **LuLu** *(Networking/Privacy macOS firewall – Obj-C/Swift)*
+* **LuLu** *(Networking/Privacy macOS firewall)*
+
+### Multi-lang
+
 * **OpenSnitch** *(Networking/Privacy Linux firewall – Python/Go)*
 
 ---
