@@ -46,10 +46,10 @@
   <https://github.com/cashubtc/nutshell>
 - Fedimint - Modular federated e-cash backend (Rust | Server | Ecash | community custody, e-cash)
   <https://github.com/fedimint/fedimint>
-- Bitchat - Offline-first Bluetooth/Nostr messenger (Swift/Kotlin | Tool/CLI | Networking/Privacy |
-  mesh messaging) <https://github.com/permissionlesstech/bitchat>
-- cjdns - Encrypted IPv6 mesh networking stack (C | Server | Networking/Privacy | mesh routing, IP
-  allocation) <https://github.com/cjdelisle/cjdns>
+- Bitchat - Offline-first Bluetooth/Nostr messenger (Swift | Tool/CLI | Networking/Privacy | mesh
+  messaging) <https://github.com/permissionlesstech/bitchat>
+- cjdns - Encrypted IPv6 mesh networking stack (C/Rust | Server | Networking/Privacy | mesh routing,
+  IP allocation) <https://github.com/cjdelisle/cjdns>
 - I2P - Anonymous overlay network (Java | Server | Networking/Privacy | traffic hiding, tunnels)
   <https://geti2p.net/>
 - SearXNG - Self-hosted metasearch engine (Python | Server | Networking/Privacy | privacy search,
@@ -93,7 +93,7 @@
   <https://github.com/fiatjaf/relayer>
 - rust-nostr - Nostr types & client (Rust | Library | Nostr | client, events)
   <https://github.com/rust-nostr/nostr>
-- SNSTR - Minimal Nostr toolkit (JS/TS | Library | Nostr | client, ergonomics)
+- SNSTR - Secure Nostr toolkit (JS/TS | Library | Nostr | client, ergonomics)
   <https://github.com/austinkelsay/snstr>
 - strfry - High-performance Nostr relay using LMDB (C/C++ | Server | Nostr | relay)
   <https://github.com/hoytech/strfry>
