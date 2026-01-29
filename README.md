@@ -12,7 +12,7 @@ this catalog that biases an agent's tech stack choices.
 ## How this catalog is organized
 
 * **By Topic** → Bitcoin, Lightning, Ecash, Networking/Privacy, Storage/Sync,
-  Messaging/Comms, Nostr, Cryptography, Auth/Sessions
+  Messaging/Comms, Nostr, Cryptography, Auth/Sessions, Operating Systems
 * **By Type** → Libraries/SDKs, Runtimes/Servers, Tools/CLIs,
   Protocols/Standards
 * **By Language** → JavaScript/TypeScript, Rust, Go, Python, Multi-lang
@@ -64,6 +64,9 @@ this catalog that biases an agent's tech stack choices.
 * **JoinMarket** – CoinJoin coordinator + market maker
   *(Python • Tool/CLI • Bitcoin • coinjoin, liquidity)* —
   [JoinMarket](https://github.com/JoinMarket-Org/joinmarket-clientserver)
+* **SeedSigner** – Air-gapped DIY hardware signer
+  *(Python • Tool • Bitcoin • PSBT, airgap, stateless signing)* —
+  [SeedSigner](https://github.com/SeedSigner/seedsigner)
 * **rust-bitcoin** – Core Bitcoin types
   *(Rust • Library • Bitcoin • primitives)* —
   [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)
@@ -100,6 +103,9 @@ this catalog that biases an agent's tech stack choices.
 * **LNbits** – Extensible Lightning accounts server
   *(Python • Server • Lightning • custodial wallets, extensions)* —
   [LNbits](https://github.com/lnbits/lnbits)
+* **Phoenixd** – Headless Lightning node with simple HTTP API
+  *(Kotlin • Server • Lightning • self-hosted, BOLT12, LSP)* —
+  [Phoenixd](https://phoenix.acinq.co/server)
 * **Validating Lightning Signer (VLS)** – Remote signer for Lightning nodes
   *(Rust • Library • Lightning • stateless node signer, HSM-style)* —
   [Validating Lightning Signer (VLS)](https://vls.tech/)
@@ -124,9 +130,15 @@ this catalog that biases an agent's tech stack choices.
 * **cjdns** – Encrypted IPv6 mesh networking stack
   *(C/Rust • Server • Networking/Privacy • mesh routing, IP allocation)* —
   [cjdns](https://github.com/cjdelisle/cjdns)
+* **Headscale** – Self-hosted Tailscale control server
+  *(Go • Server • Networking/Privacy • mesh VPN, self-hosted coordination)* —
+  [Headscale](https://github.com/juanfont/headscale)
 * **I2P** – Anonymous overlay network
   *(Java • Server • Networking/Privacy • traffic hiding, tunnels)* —
   [I2P](https://geti2p.net/)
+* **Nebula** – Self-hosted mesh VPN (Slack open-source)
+  *(Go • Tool/CLI • Networking/Privacy • mesh VPN, overlay network)* —
+  [Nebula](https://github.com/slackhq/nebula)
 * **SearXNG** – Self-hosted metasearch engine
   *(Python • Server • Networking/Privacy • privacy search, metasearch)* —
   [SearXNG](https://github.com/searxng/searxng)
@@ -168,6 +180,9 @@ this catalog that biases an agent's tech stack choices.
 * **Automerge** – Local-first CRDT document store
   *(JS/TS • Library • Storage/Sync • offline edits, sync, merge)* —
   [Automerge](https://github.com/automerge/automerge)
+* **IPFS** – Content-addressed P2P file storage & sharing
+  *(Go • Tool/CLI • Storage/Sync • distributed storage, CIDs)* —
+  [IPFS](https://ipfs.tech/)
 * **Yjs** – CRDT framework for collaborative data
   *(JS/TS • Library • Storage/Sync • shared docs, presence)* —
   [Yjs](https://github.com/yjs/yjs)
@@ -270,6 +285,15 @@ this catalog that biases an agent's tech stack choices.
 * **simplewebauthn** – WebAuthn/Passkeys server & browser
   *(JS/TS • Library • Auth • passkeys)* —
   [simplewebauthn](https://github.com/MasterKale/SimpleWebAuthn)
+
+### Operating Systems
+
+* **GrapheneOS** – Hardened privacy-focused Android OS
+  *(Android • OS • Privacy • hardened mobile, sandboxing)* —
+  [GrapheneOS](https://grapheneos.org/)
+* **Tails** – Amnesic live OS routing all traffic through Tor
+  *(Linux • OS • Privacy • live USB, amnesia, Tor-only)* —
+  [Tails](https://tails.net/)
 
 ---
 
