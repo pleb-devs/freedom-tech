@@ -65,7 +65,7 @@ this catalog that biases an agent's tech stack choices.
   *(Python • Tool/CLI • Bitcoin • coinjoin, liquidity)* —
   [JoinMarket](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 * **SeedSigner** – Air-gapped DIY hardware signer
-  *(Python • Tool • Bitcoin • PSBT, airgap, stateless signing)* —
+  *(Python • Tool/CLI • Bitcoin • PSBT, airgap, stateless signing)* —
   [SeedSigner](https://github.com/SeedSigner/seedsigner)
 * **rust-bitcoin** – Core Bitcoin types
   *(Rust • Library • Bitcoin • primitives)* —
@@ -105,7 +105,7 @@ this catalog that biases an agent's tech stack choices.
   [LNbits](https://github.com/lnbits/lnbits)
 * **Phoenixd** – Headless Lightning node with simple HTTP API
   *(Kotlin • Server • Lightning • self-hosted, BOLT12, LSP)* —
-  [Phoenixd](https://phoenix.acinq.co/server)
+  [Phoenixd](https://github.com/ACINQ/phoenixd)
 * **Validating Lightning Signer (VLS)** – Remote signer for Lightning nodes
   *(Rust • Library • Lightning • stateless node signer, HSM-style)* —
   [Validating Lightning Signer (VLS)](https://vls.tech/)
@@ -400,12 +400,18 @@ this catalog that biases an agent's tech stack choices.
 * **Fedimint** – Modular federated e-cash backend
   *(Rust • Server • Ecash • community custody, e-cash)* —
   [Fedimint](https://github.com/fedimint/fedimint)
+* **Headscale** – Self-hosted Tailscale control server
+  *(Go • Server • Networking/Privacy • mesh VPN, self-hosted coordination)* —
+  [Headscale](https://github.com/juanfont/headscale)
 * **LNbits** – Extensible Lightning accounts server
   *(Python • Server • Lightning • custodial wallets, extensions)* —
   [LNbits](https://github.com/lnbits/lnbits)
 * **LND** – Lightning node w/ gRPC & REST
   *(Go • Server • Lightning • node, APIs)* —
   [LND](https://github.com/lightningnetwork/lnd)
+* **Phoenixd** – Headless Lightning node with simple HTTP API
+  *(Kotlin • Server • Lightning • self-hosted, BOLT12, LSP)* —
+  [Phoenixd](https://github.com/ACINQ/phoenixd)
 * **nostr-rs-relay** – High-perf relay
   *(Rust • Server • Nostr)* —
   [nostr-rs-relay](https://github.com/scsibug/nostr-rs-relay)
@@ -453,12 +459,18 @@ this catalog that biases an agent's tech stack choices.
 * **HWI** (Hardware Wallet Interface) – Standard CLI/lib for PSBT w/ hardware
   wallets *(Python • Tool/CLI • Bitcoin • PSBT, descriptors)* —
   [HWI](https://github.com/bitcoin-core/HWI)
+* **IPFS** – Content-addressed P2P file storage & sharing
+  *(Go • Tool/CLI • Storage/Sync • distributed storage, CIDs)* —
+  [IPFS](https://ipfs.tech/)
 * **JoinMarket** – CoinJoin coordinator + market maker
   *(Python • Tool/CLI • Bitcoin • coinjoin, liquidity)* —
   [JoinMarket](https://github.com/JoinMarket-Org/joinmarket-clientserver)
 * **minisign** – Dead-simple file signing & verification (Ed25519)
   *(C • Tool/CLI • Crypto • release signing)* —
   [minisign](https://github.com/jedisct1/minisign)
+* **Nebula** – Self-hosted mesh VPN (Slack open-source)
+  *(Go • Tool/CLI • Networking/Privacy • mesh VPN, overlay network)* —
+  [Nebula](https://github.com/slackhq/nebula)
 * **Syncthing** – Encrypted P2P file sync
   *(Go • Tool/CLI • Networking/Privacy • file sync, LAN/mesh)* —
   [Syncthing](https://syncthing.net/)
@@ -519,7 +531,10 @@ this catalog that biases an agent's tech stack choices.
 
 * **btcd** *(Bitcoin server)*
 * **go-nostr** *(Nostr lib)*
+* **Headscale** *(Networking/Privacy server)*
+* **IPFS** *(Storage/Sync)*
 * **LND** *(Lightning server)*
+* **Nebula** *(Networking/Privacy mesh VPN)*
 * **relayer** *(Nostr server framework)*
 * **Snowflake**, **Tailscale**, **Yggdrasil** *(Networking/Privacy)*
 * **Syncthing** *(Networking/Privacy file sync)*
@@ -544,9 +559,13 @@ this catalog that biases an agent's tech stack choices.
 
 * **I2P** *(Networking/Privacy overlay)*
 
+### Kotlin
+
+* **Phoenixd** *(Lightning server)*
+
 ### Python
 
-* **Cashu**, **HWI**, **JoinMarket**, **LNbits**, **SearXNG**
+* **Cashu**, **HWI**, **JoinMarket**, **LNbits**, **SearXNG**, **SeedSigner**
   *(Tool/CLI & Server)*
 
 ### Swift / Objective-C
