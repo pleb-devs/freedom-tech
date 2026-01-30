@@ -16,6 +16,8 @@
   Tool/CLI | Bitcoin | PSBT, descriptors) <https://github.com/bitcoin-core/HWI>
 - JoinMarket - CoinJoin coordinator + market maker (Python | Tool/CLI | Bitcoin | coinjoin,
   liquidity) <https://github.com/JoinMarket-Org/joinmarket-clientserver>
+- SeedSigner - Air-gapped DIY hardware signer (Python | Tool/CLI | Bitcoin | PSBT, airgap, stateless
+  signing) <https://github.com/SeedSigner/seedsigner>
 - rust-bitcoin - Core Bitcoin types (Rust | Library | Bitcoin | primitives)
   <https://github.com/rust-bitcoin/rust-bitcoin>
 - rust-miniscript - Miniscript & descriptors (Rust | Library | Bitcoin | miniscript, policy)
@@ -38,6 +40,8 @@
   <https://github.com/lightningnetwork/lnd>
 - LNbits - Extensible Lightning accounts server (Python | Server | Lightning | custodial wallets,
   extensions) <https://github.com/lnbits/lnbits>
+- Phoenixd - Headless Lightning node with simple HTTP API (Kotlin | Server | Lightning |
+  self-hosted, BOLT12, LSP) <https://github.com/ACINQ/phoenixd>
 - Validating Lightning Signer (VLS) - Remote signer for Lightning nodes (Rust | Library | Lightning
   | stateless node signer, HSM-style) <https://vls.tech/>
 - tonic_lnd - gRPC client for LND (Rust | Library | Lightning | API client)
@@ -50,8 +54,12 @@
   messaging) <https://github.com/permissionlesstech/bitchat>
 - cjdns - Encrypted IPv6 mesh networking stack (C/Rust | Server | Networking/Privacy | mesh routing,
   IP allocation) <https://github.com/cjdelisle/cjdns>
+- Headscale - Self-hosted Tailscale control server (Go | Server | Networking/Privacy | mesh VPN,
+  self-hosted coordination) <https://github.com/juanfont/headscale>
 - I2P - Anonymous overlay network (Java | Server | Networking/Privacy | traffic hiding, tunnels)
   <https://geti2p.net/>
+- Nebula - Self-hosted mesh VPN (Slack open-source) (Go | Tool/CLI | Networking/Privacy | mesh VPN,
+  overlay network) <https://github.com/slackhq/nebula>
 - SearXNG - Self-hosted metasearch engine (Python | Server | Networking/Privacy | privacy search,
   metasearch) <https://github.com/searxng/searxng>
 - Snowflake - Pluggable transport proxy for Tor (Go | Server | Networking/Privacy | traffic
@@ -76,6 +84,8 @@
   firewall, DNS privacy) <https://safing.io/>
 - Automerge - Local-first CRDT document store (JS/TS | Library | Storage/Sync | offline edits, sync,
   merge) <https://github.com/automerge/automerge>
+- IPFS - Content-addressed P2P file storage & sharing (Go | Tool/CLI | Storage/Sync | distributed
+  storage, CIDs) <https://ipfs.tech/>
 - Yjs - CRDT framework for collaborative data (JS/TS | Library | Storage/Sync | shared docs,
   presence) <https://github.com/yjs/yjs>
 - Signal Protocol - E2EE messaging protocol (Spec | Protocol/Standard | Messaging/Comms | e2ee,
@@ -125,5 +135,9 @@
   <https://github.com/vvo/iron-session>
 - simplewebauthn - WebAuthn/Passkeys server & browser (JS/TS | Library | Auth | passkeys)
   <https://github.com/MasterKale/SimpleWebAuthn>
+- GrapheneOS - Hardened privacy-focused Android OS (Android | OS | Privacy | hardened mobile,
+  sandboxing) <https://grapheneos.org/>
+- Tails - Amnesic live OS routing all traffic through Tor (Linux | OS | Privacy | live USB, amnesia,
+  Tor-only) <https://tails.net/>
 - Tauri - Webview shell (Rust/JS | Framework | App | desktop) <https://tauri.app>
 - Wails - Go webview shell (Go/JS | Framework | App | desktop) <https://github.com/wailsapp/wails>
