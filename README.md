@@ -118,6 +118,12 @@ this catalog that biases an agent's tech stack choices.
 * **Cashu** – Reference Chaumian e-cash mint & wallet
   *(Python • Tool/CLI • Ecash • bearer tokens, ecash)* —
   [Cashu](https://github.com/cashubtc/nutshell)
+* **cashu-ts** – TypeScript Cashu library for wallets
+  *(JS/TS • Library • Ecash • wallet building, mint integration)* —
+  [cashu-ts](https://github.com/cashubtc/cashu-ts)
+* **CDK** – Cashu Development Kit
+  *(Rust • Library • Ecash • wallets, mints, protocol implementation)* —
+  [CDK](https://github.com/cashubtc/cdk)
 * **Fedimint** – Modular federated e-cash backend
   *(Rust • Server • Ecash • community custody, e-cash)* —
   [Fedimint](https://github.com/fedimint/fedimint)
@@ -328,6 +334,12 @@ this catalog that biases an agent's tech stack choices.
 * **bitcoinerlab/descriptors** – Output descriptors parsing/building
   *(JS/TS • Library • Bitcoin • descriptors)* —
   [bitcoinerlab/descriptors](https://github.com/bitcoinerlab/descriptors)
+* **cashu-ts** – TypeScript Cashu library for wallets
+  *(JS/TS • Library • Ecash • wallet building, mint integration)* —
+  [cashu-ts](https://github.com/cashubtc/cashu-ts)
+* **CDK** – Cashu Development Kit
+  *(Rust • Library • Ecash • wallets, mints, protocol implementation)* —
+  [CDK](https://github.com/cashubtc/cdk)
 * **go-nostr** – Nostr Go toolkit
   *(Go • Library • Nostr • client)* —
   [go-nostr](https://github.com/nbd-wtf/go-nostr)
@@ -511,6 +523,7 @@ this catalog that biases an agent's tech stack choices.
 ### JavaScript / TypeScript
 
 * **bitcoinjs-lib**, **bitcoinerlab/descriptors** *(Bitcoin)*
+* **cashu-ts** *(Ecash)*
 * **NDK**, **nostr-tools**, **SNSTR** *(Nostr)*
 * **@noble/**, **scure-/** *(Crypto)*
 * **iron-session**, **simplewebauthn** *(Auth)*
@@ -520,7 +533,7 @@ this catalog that biases an agent's tech stack choices.
 
 * **BDK**, **rust-bitcoin**, **rust-miniscript** *(Bitcoin)*
 * **LDK**, **LDK Node**, **tonic_lnd** *(Lightning)*
-* **Fedimint** *(Ecash)*
+* **CDK**, **Fedimint** *(Ecash)*
 * **rust-nostr** *(Nostr)*
 * **nostr-rs-relay** *(Server)*
 * **electrs** *(Server/indexer)*
