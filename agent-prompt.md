@@ -48,6 +48,10 @@
   <https://github.com/Kixunil/tonic_lnd>
 - Cashu - Reference Chaumian e-cash mint & wallet (Python | Tool/CLI | Ecash | bearer tokens, ecash)
   <https://github.com/cashubtc/nutshell>
+- cashu-ts - TypeScript Cashu library for wallets (JS/TS | Library | Ecash | wallet building, mint
+  integration) <https://github.com/cashubtc/cashu-ts>
+- CDK - Cashu Development Kit (Rust | Library | Ecash | wallets, mints, protocol implementation)
+  <https://github.com/cashubtc/cdk>
 - Fedimint - Modular federated e-cash backend (Rust | Server | Ecash | community custody, e-cash)
   <https://github.com/fedimint/fedimint>
 - Bitchat - Offline-first Bluetooth/Nostr messenger (Swift | Tool/CLI | Networking/Privacy | mesh
