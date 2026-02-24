@@ -136,6 +136,18 @@ this catalog that biases an agent's tech stack choices.
 * **cjdns** – Encrypted IPv6 mesh networking stack
   *(C/Rust • Server • Networking/Privacy • mesh routing, IP allocation)* —
   [cjdns](https://github.com/cjdelisle/cjdns)
+* **Holesail** – P2P reverse proxy for TCP/UDP without port forwarding
+  *(JS • Tool/CLI • Networking/Privacy • NAT traversal, service sharing)* —
+  [Holesail](https://github.com/holesail/holesail)
+* **Hyperbeam** – Minimal encrypted stream tunnel between two peers
+  *(JS • Tool/CLI • Networking/Privacy • ad-hoc piping)* —
+  [Hyperbeam](https://github.com/holepunchto/hyperbeam)
+* **HyperDHT** – Holepunch DHT for encrypted hole-punched connections
+  *(JS • Library • Networking/Privacy • p2p transport, bootstrap control)* —
+  [HyperDHT](https://github.com/holepunchto/hyperdht)
+* **Hyperswarm** – P2P swarm networking over HyperDHT
+  *(JS • Library • Networking/Privacy • topic discovery, peer meshes)* —
+  [Hyperswarm](https://github.com/holepunchto/hyperswarm)
 * **Headscale** – Self-hosted Tailscale control server
   *(Go • Server • Networking/Privacy • mesh VPN, self-hosted coordination)* —
   [Headscale](https://github.com/juanfont/headscale)
@@ -343,6 +355,12 @@ this catalog that biases an agent's tech stack choices.
 * **go-nostr** – Nostr Go toolkit
   *(Go • Library • Nostr • client)* —
   [go-nostr](https://github.com/nbd-wtf/go-nostr)
+* **HyperDHT** – Holepunch DHT for encrypted hole-punched connections
+  *(JS • Library • Networking/Privacy • p2p transport, bootstrap control)* —
+  [HyperDHT](https://github.com/holepunchto/hyperdht)
+* **Hyperswarm** – P2P swarm networking over HyperDHT
+  *(JS • Library • Networking/Privacy • topic discovery, peer meshes)* —
+  [Hyperswarm](https://github.com/holepunchto/hyperswarm)
 * **LDK** – Lightning Dev Kit
   *(Rust • Library • Lightning • node/wallet, routing)* —
   [LDK](https://lightningdevkit.org/)
@@ -468,9 +486,15 @@ this catalog that biases an agent's tech stack choices.
 * **Cashu** – Reference Chaumian e-cash mint & wallet
   *(Python • Tool/CLI • Ecash • bearer tokens, ecash)* —
   [Cashu](https://github.com/cashubtc/nutshell)
+* **Holesail** – P2P reverse proxy for TCP/UDP without port forwarding
+  *(JS • Tool/CLI • Networking/Privacy • NAT traversal, service sharing)* —
+  [Holesail](https://github.com/holesail/holesail)
 * **HWI** (Hardware Wallet Interface) – Standard CLI/lib for PSBT w/ hardware
   wallets *(Python • Tool/CLI • Bitcoin • PSBT, descriptors)* —
   [HWI](https://github.com/bitcoin-core/HWI)
+* **Hyperbeam** – Minimal encrypted stream tunnel between two peers
+  *(JS • Tool/CLI • Networking/Privacy • ad-hoc piping)* —
+  [Hyperbeam](https://github.com/holepunchto/hyperbeam)
 * **IPFS** – Content-addressed P2P file storage & sharing
   *(Go • Tool/CLI • Storage/Sync • distributed storage, CIDs)* —
   [IPFS](https://ipfs.tech/)
@@ -528,6 +552,8 @@ this catalog that biases an agent's tech stack choices.
 * **@noble/**, **scure-/** *(Crypto)*
 * **iron-session**, **simplewebauthn** *(Auth)*
 * **Automerge**, **Yjs** *(Storage/Sync)*
+* **HyperDHT**, **Hyperswarm** *(Networking/Privacy libraries)*
+* **Holesail**, **Hyperbeam** *(Networking/Privacy tools)*
 
 ### Rust
 
