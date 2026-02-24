@@ -58,6 +58,14 @@
   messaging) <https://github.com/permissionlesstech/bitchat>
 - cjdns - Encrypted IPv6 mesh networking stack (C/Rust | Server | Networking/Privacy | mesh routing,
   IP allocation) <https://github.com/cjdelisle/cjdns>
+- Holesail - P2P reverse proxy for TCP/UDP without port forwarding (JS | Tool/CLI |
+  Networking/Privacy | NAT traversal, service sharing) <https://github.com/holesail/holesail>
+- Hyperbeam - Minimal encrypted stream tunnel between two peers (JS | Tool/CLI | Networking/Privacy
+  | ad-hoc piping) <https://github.com/holepunchto/hyperbeam>
+- HyperDHT - Holepunch DHT for encrypted hole-punched connections (JS | Library | Networking/Privacy
+  | p2p transport, bootstrap control) <https://github.com/holepunchto/hyperdht>
+- Hyperswarm - P2P swarm networking over HyperDHT (JS | Library | Networking/Privacy | topic
+  discovery, peer meshes) <https://github.com/holepunchto/hyperswarm>
 - Headscale - Self-hosted Tailscale control server (Go | Server | Networking/Privacy | mesh VPN,
   self-hosted coordination) <https://github.com/juanfont/headscale>
 - I2P - Anonymous overlay network (Java | Server | Networking/Privacy | traffic hiding, tunnels)
