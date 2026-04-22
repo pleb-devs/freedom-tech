@@ -11,8 +11,9 @@ this catalog that biases an agent's tech stack choices.
 
 ## How this catalog is organized
 
-* **By Topic** → Bitcoin, Lightning, Ecash, Networking/Privacy, Storage/Sync,
-  Messaging/Comms, Nostr, Cryptography, Auth/Sessions, Operating Systems
+* **By Topic** → Bitcoin, Lightning, Ecash, Networking/Privacy,
+  Network Visibility/Outbound Control, Storage/Sync, Messaging/Comms, Nostr,
+  Cryptography, Auth/Sessions, Operating Systems
 * **By Type** → Libraries/SDKs, Runtimes/Servers, Tools/CLIs,
   Protocols/Standards
 * **By Language** → JavaScript/TypeScript, Rust, Go, Python, Multi-lang
@@ -29,6 +30,7 @@ this catalog that biases an agent's tech stack choices.
 ## Quick Index
 
 * [By Topic](#by-topic)
+* [Network Visibility / Outbound Control](#network-visibility--outbound-control)
 * [By Type](#by-type)
 * [App Frameworks](#app-frameworks)
 * [By Language](#by-language)

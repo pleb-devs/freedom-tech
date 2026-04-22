@@ -52,3 +52,10 @@ Use this guide when editing entries or adding new sections.
 - Do not include secrets, tokens, or PII in URLs.
 - Keep the repository text-only for easier review, mirroring, and long-term
   maintenance.
+
+## Engineering Principles
+
+**1. Think Before Coding**: State assumptions, surface uncertainty, and present tradeoffs.
+**2. Simplicity First**: Minimum code required. No speculative features or unnecessary abstractions.
+**3. Surgical Changes**: Touch only what is necessary. Match existing style.
+**4. Goal-Driven Execution**: Define success via verifiable tests/checks.
