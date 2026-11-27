@@ -69,6 +69,9 @@ this catalog that biases an agent's tech stack choices.
 * **SeedSigner** – Air-gapped DIY hardware signer
   *(Python • Tool/CLI • Bitcoin • PSBT, airgap, stateless signing)* —
   [SeedSigner](https://github.com/SeedSigner/seedsigner)
+* **BitTool Signer (iOS)** – Offline phone app for reviewing Bitcoin PSBTs
+  and returning signatures by QR *(Swift/JS • Tool/CLI • Bitcoin • PSBT, QR)* —
+  [BitTool Signer](https://bittool.com/signer/)
 * **rust-bitcoin** – Core Bitcoin types
   *(Rust • Library • Bitcoin • primitives)* —
   [rust-bitcoin](https://github.com/rust-bitcoin/rust-bitcoin)
@@ -485,6 +488,9 @@ this catalog that biases an agent's tech stack choices.
 * **Bitchat** – Offline-first Bluetooth/Nostr messenger
   *(Swift • Tool/CLI • Networking/Privacy • adhoc comms)* —
   [Bitchat](https://github.com/permissionlesstech/bitchat)
+* **BitTool Signer (iOS)** – Offline phone app for reviewing Bitcoin PSBTs
+  and returning signatures by QR *(Swift/JS • Tool/CLI • Bitcoin • PSBT, QR)* —
+  [BitTool Signer](https://bittool.com/signer/)
 * **Cashu** – Reference Chaumian e-cash mint & wallet
   *(Python • Tool/CLI • Ecash • bearer tokens, ecash)* —
   [Cashu](https://github.com/cashubtc/nutshell)
@@ -612,6 +618,7 @@ this catalog that biases an agent's tech stack choices.
 ### Swift / Objective-C
 
 * **Bitchat** *(Networking/Privacy messenger)*
+* **BitTool Signer (iOS)** *(Bitcoin PSBT review and offline QR signing)*
 * **LuLu** *(Networking/Privacy macOS firewall)*
 
 ### Multi-lang
